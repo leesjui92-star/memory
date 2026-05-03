@@ -1,0 +1,163 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+$300 크레딧으로 무료 체험판을 시작해 보세요. 크레딧을 모두 사용해도 요금이 청구되지 않으니 걱정하지 마세요.
+자세히 알아보기
+닫기
+무료로 시작하기
+기본 콘텐츠로 건너뛰기
+키보드 단축키
+접근성 도움말
+접근성 관련 의견
+프로젝트 선택
+4
+제품 세부정보
+[0] (500,559)<cfc-virtual-viewport class='cfc-virtual-scroll-viewport cfc-panel-body cfc-panel-body-scrollable cfc-panel-disable-border-bottom cfc-virtual-scroll-orientation-vertical' role='presentation' scrollable='true' />
+	Blogger API
+	Google
+	The Blogger API provides access to posts, comments and pages of a
+    Blogger blog.
+	사용
+	API 사용해 보기
+	개요
+	문서
+	관련 제품
+	개요
+	The Blogger API provides access to posts, comments and pages of a
+    Blogger blog.
+	Google 정보
+	Google's mission is to organize the world's information and make it universally accessible and useful. Through products and platforms like Search, Maps, Gmail, Android, Google Play, Chrome and YouTube, Google plays a meaningful role in the daily lives of billions of people.
+	추가 세부정보
+	유형:
+	SaaS & APIs
+	최종 제품 업데이트:
+	22. 7. 22.
+	카테고리:
+	Blog & CMS
+	서비스 이름:
+	blogger.googleapis.com
+	가이드 및 문서
+	Learn more
+	서비스 약관
+	이 제품을 사용하면 다음 라이선스의 이용약관에 동의하는 것으로 간주됩니다.
+	Google APIs Terms of Service
+	.
+	관련 제품
+	이 제품을 사용하는 고객이 다음 제품도 사용합니다.
+프로젝트 선택
+[1] (719,305)<button class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button purview-picker-manage-resources-button mat-primary cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' id='cfc-labelledby-message-goog_510870928' />
+	[2] (719,306)<cm-icon  />
+[3] (770,305)<button class='mdc-button mat-mdc-button-base gmat-mdc-button purview-picker-create-project-button mat-mdc-button mat-primary cm-button ng-star-inserted'>새 프로젝트 />
+	새 프로젝트
+[4] (500,350)<div  />
+	[5] (500,350)<div  />
+		[6] (249,350)<div  />
+			[7] (266,350)<label class='mdc-floating-label mat-mdc-floating-label ng-star-inserted' id='mat-mdc-form-field-label-0' />
+				[8] (266,349)<mat-label >프로젝트 및 폴더 검색 />
+		[9] (211,350)<div  />
+			[10] (209,350)<cm-icon  />
+		[11] (509,350)<div  />
+			[12] (509,350)<input aria-label='프로젝트 및 폴더 검색' class='cm-input gmat-mdc-input mat-mdc-input-element cfc-purview-picker-modal-search-input ng-pristine ng-valid mat-mdc-form-field-input-control mdc-text-field__input cdk-text-field-autofill-monitored ng-touched' id='mat-input-1' />
+[13] (206,379)<div class='mdc-tab mat-mdc-tab mat-focus-indicator cm-mat-focus-indicator ng-star-inserted' id='mat-tab-group-0-label-0' role='tab' />
+	[14] (206,379)<span  />
+		[15] (206,379)<span >최근 />
+[16] (275,379)<div class='mdc-tab mat-mdc-tab mat-focus-indicator cm-mat-focus-indicator ng-star-inserted' id='mat-tab-group-0-label-1' role='tab' />
+	[17] (275,379)<span  />
+		[18] (275,379)<span  />
+			[19] (275,379)<span >별표표시됨 />
+[20] (344,379)<div class='mdc-tab mat-mdc-tab mat-focus-indicator cm-mat-focus-indicator ng-star-inserted cdk-focused cdk-mouse-focused mdc-tab--active mdc-tab-indicator--active' id='mat-tab-group-0-label-2' role='tab' />
+	[21] (344,379)<span  />
+		[22] (344,379)<span >전체 />
+[23] (494,405)<tr  />
+	이름
+	유형
+	ID
+[24] (494,429)<tr class='cfctest-table-body-row cfc-table-body-row cfc-outline-focus-indicator ng-star-inserted' id='cfc-table-caption-1-row-0' role='row' />
+	[25] (315,429)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[26] (315,429)<div  />
+			[27] (202,428)<cfc-tree-node-expander  />
+				[28] (202,428)<button aria-label='노드 전환' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-tree-node-expander cfc-button-small mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' />
+					[29] (202,429)<cfc-icon  />
+						[30] (202,430)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+			[31] (245,428)<span  />
+				[32] (219,428)<purview-reference-icon  />
+					[33] (219,428)<cfc-resource-icon  />
+						[34] (219,428)<cm-icon class='cm-icon--vertical-align-cap-middle ng-star-inserted' role='img' />
+				[35] (255,429)<div  />
+					[36] (255,428)<a class='ng-star-inserted'>조직 없음 />
+	[37] (494,429)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[38] (473,428)<purview-reference-label >조직 />
+	[39] (651,429)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[40] (555,428)<span >0 />
+	[41] (785,429)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+[42] (494,452)<tr class='cfctest-table-body-row cfc-table-body-row cfc-outline-focus-indicator ng-star-inserted' id='cfc-table-caption-1-row-1' role='row' />
+	[43] (315,452)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[44] (315,452)<div  />
+			[45] (204,451)<span  />
+			[46] (225,452)<cfc-tree-node-expander  />
+			[47] (278,451)<span  />
+				[48] (241,451)<purview-reference-icon  />
+					[49] (241,451)<cfc-resource-icon  />
+						[50] (241,452)<cm-icon class='cm-icon--vertical-align-cap-middle ng-star-inserted' role='img' />
+				[51] (288,452)<div  />
+					[52] (288,452)<a class='ng-star-inserted'>Blogger Auto />
+	[53] (494,452)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[54] (483,451)<purview-reference-label >프로젝트 />
+	[55] (651,452)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[56] (605,451)<span >blogger-auto-495117 />
+	[57] (785,452)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[58] (785,452)<project-star  />
+			[59] (785,452)<mat-button-toggle class='mat-button-toggle cfc-button-toggle-icon cfc-color-primary mat-button-toggle-standalone cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device mat-button-toggle-animations-enabled' id='mat-button-toggle-2' role='presentation' />
+				[60] (785,452)<button aria-label='Blogger Auto에 별표 추가' class='mat-button-toggle-button mat-focus-indicator' id='mat-button-toggle-2-button' role='button' />
+					[61] (785,452)<span  />
+						[62] (785,452)<cfc-icon  />
+							[63] (785,452)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+[64] (494,476)<tr class='cfctest-table-body-row cfc-table-body-row cfc-outline-focus-indicator ng-star-inserted' id='cfc-table-caption-1-row-2' role='row' />
+	[65] (315,476)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[66] (315,476)<div  />
+			[67] (204,475)<span  />
+			[68] (225,476)<cfc-tree-node-expander  />
+			[69] (302,475)<span  />
+				[70] (241,475)<purview-reference-icon  />
+					[71] (241,475)<cfc-resource-icon  />
+						[72] (241,476)<cm-icon class='cm-icon--vertical-align-cap-middle ng-star-inserted' role='img' />
+				[73] (313,476)<div  />
+					[74] (313,476)<a class='ng-star-inserted'>Default Gemini Project />
+	[75] (494,476)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[76] (483,475)<purview-reference-label >프로젝트 />
+	[77] (651,476)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[78] (623,475)<span >gen-lang-client-0035104914 />
+	[79] (785,476)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[80] (785,476)<project-star  />
+			[81] (785,476)<mat-button-toggle class='mat-button-toggle cfc-button-toggle-icon cfc-color-primary mat-button-toggle-standalone cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device mat-button-toggle-animations-enabled' id='mat-button-toggle-3' role='presentation' />
+				[82] (785,476)<button aria-label='Default Gemini Project에 별표 추가' class='mat-button-toggle-button mat-focus-indicator' id='mat-button-toggle-3-button' role='button' />
+					[83] (785,476)<span  />
+						[84] (785,476)<cfc-icon  />
+							[85] (785,476)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+[86] (494,500)<tr class='cfctest-table-body-row cfc-table-body-row cfc-outline-focus-indicator ng-star-inserted' id='cfc-table-caption-1-row-3' role='row' />
+	[87] (315,500)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[88] (315,500)<div  />
+			[89] (204,499)<span  />
+			[90] (225,500)<cfc-tree-node-expander  />
+			[91] (285,499)<span  />
+				[92] (241,499)<purview-reference-icon  />
+					[93] (241,499)<cfc-resource-icon  />
+						[94] (241,500)<cm-icon class='cm-icon--vertical-align-cap-middle ng-star-inserted' role='img' />
+				[95] (295,500)<div  />
+					[96] (295,500)<a class='ng-star-inserted'>My First Project />
+	[97] (494,500)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[98] (483,499)<purview-reference-label >프로젝트 />
+	[99] (651,500)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[100] (614,499)<span >utilitarian-mix-495117-j2 />
+	[101] (785,500)<td class='cfc-table-cell-container cfc-outline-focus-indicator ng-star-inserted' role='gridcell' />
+		[102] (785,500)<project-star  />
+			[103] (785,500)<mat-button-toggle class='mat-button-toggle cfc-button-toggle-icon cfc-color-primary mat-button-toggle-standalone cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device mat-button-toggle-animations-enabled' id='mat-button-toggle-4' role='presentation' />
+				[104] (785,500)<button aria-label='My First Project에 별표 추가' class='mat-button-toggle-button mat-focus-indicator' id='mat-button-toggle-4-button' role='button' />
+					[105] (785,500)<span  />
+						[106] (785,500)<cfc-icon  />
+							[107] (785,500)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+[108] (794,694)<button class='mdc-button mat-mdc-button-base gmat-mdc-button mat-mdc-button mat-secondary cm-button'>취소 />
+	취소
+
+</current_dom>

@@ -1,0 +1,157 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+$300 크레딧으로 무료 체험판을 시작해 보세요. 크레딧을 모두 사용해도 요금이 청구되지 않으니 걱정하지 마세요.
+[0] (618,19)<a aria-label='무료 체험 프로그램 자세히 알아보기 새 창에서 외부 링크 열기' class='cfc-doc-link' href='https://cloud.google.com/free/?hl=ko' />
+	[1] (613,19)<span >자세히 알아보기 />
+	[2] (656,19)<cm-icon aria-label='새 창에서 외부 링크 열기' class='cm-icon-external-link' role='img' />
+[3] (872,19)<button aria-label='전체 계정 활성화 배너 닫기' class='mdc-button mat-mdc-button-base gmat-mdc-button mat-mdc-button mat-unthemed cm-button ng-star-inserted'>닫기 />
+	닫기
+[4] (946,19)<button aria-label='무료로 시작하기' class='mdc-button mat-mdc-button-base gmat-mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary cm-button ng-star-inserted'>무료로 시작하기 />
+	무료로 시작하기
+기본 콘텐츠로 건너뛰기
+키보드 단축키
+접근성 도움말
+접근성 관련 의견
+[5] (22,58)<button aria-label='탐색 메뉴 (.)' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+	[6] (22,58)<cm-icon  />
+[7] (96,58)<a aria-label='Google Cloud Platform 홈' class='cfc-logo-anchor mat-focus-indicator' href='/?project=630622954521' />
+[8] (208,58)<button aria-label='선택한 프로젝트가 없습니다. 프로젝트, 폴더 또는 조직을 선택하려면 Enter 키를 누르세요.' class='mdc-button mat-mdc-button-base gmat-mdc-button ng-tns-c1932759562-2 mat-mdc-button cfc-switcher-button new-switcher-button mat-unthemed cm-button' />
+	[9] (213,58)<span  />
+		[10] (213,58)<span  />
+			[11] (210,58)<span >프로젝트 선택 />
+[12] (821,58)<button aria-label='검색 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+	[13] (821,58)<cm-icon  />
+[14] (853,58)<button aria-label='Gemini AI 채팅 열기 (Alt G)' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' id='pcc-duet-chat-container' />
+	[15] (853,58)<cm-icon  />
+[16] (885,58)<button aria-label='Cloud Shell 활성화 (G then S)' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip ng-star-inserted cfc-tooltip-disable-user-select-on-touch-device' />
+	[17] (885,58)<cm-icon  />
+[18] (917,58)<button aria-label='읽지 않은 알림 4개 알림 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+	[19] (917,58)<div  />
+		[20] (917,58)<div  />
+			[21] (917,54)<div >4 />
+[22] (949,58)<button aria-label='설정 및 유틸리티' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' id='pcc-utilities-menu-trigger' />
+	[23] (949,58)<cm-icon  />
+[24] (981,58)<button aria-label='계정: J Rock (leesjui92@gmail.com)' class='cfc-accountchooser-link mat-focus-indicator cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' />
+[25] (22,98)<button aria-label='이전 페이지(으)로 돌아가기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-nav-button mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' />
+	[26] (22,98)<cm-icon  />
+제품 세부정보
+[27] (500,559)<cfc-virtual-viewport class='cfc-virtual-scroll-viewport cfc-panel-body cfc-panel-body-scrollable cfc-panel-disable-border-bottom cfc-virtual-scroll-orientation-vertical' role='presentation' scrollable='true' />
+	Blogger API
+	[28] (171,175)<a href='/marketplace/browse?filter=partner:Google&project=630622954521'>Google />
+	The Blogger API provides access to posts, comments and pages of a
+    Blogger blog.
+	[29] (174,285)<button aria-label='API 사용 설정' class='mdc-button mat-mdc-button-base gmat-mdc-button mat-primary cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device mdc-button--unelevated mat-mdc-unelevated-button' role='button'>사용 />
+		사용
+	API 사용해 보기
+	[30] (78,364)<a class='mdc-tab mat-mdc-tab-link mat-focus-indicator cm-mat-focus-indicator mdc-tab--active mdc-tab-indicator--active' id='_0rif_mat-tab-link-0' role='tab' />
+		[31] (78,364)<span  />
+			[32] (78,364)<span >개요 />
+	[33] (131,364)<a class='mdc-tab mat-mdc-tab-link mat-focus-indicator cm-mat-focus-indicator' id='_0rif_mat-tab-link-1' role='tab' />
+		[34] (131,364)<span  />
+			[35] (131,364)<span >문서 />
+	관련 제품
+	개요
+	The Blogger API provides access to posts, comments and pages of a
+    Blogger blog.
+	Google 정보
+	Google's mission is to organize the world's information and make it universally accessible and useful. Through products and platforms like Search, Maps, Gmail, Android, Google Play, Chrome and YouTube, Google plays a meaningful role in the daily lives of billions of people.
+	추가 세부정보
+	유형:
+	SaaS & APIs
+	최종 제품 업데이트:
+	22. 7. 22.
+	카테고리:
+	Blog & CMS
+	서비스 이름:
+	blogger.googleapis.com
+	가이드 및 문서
+	[36] (152,718)<a aria-label='Learn more 새 창에서 외부 링크 열기' class='cfc-external-link' href='https://developers.google.com/blogger/docs/3.0/getting_started?hl=ko' />
+		[37] (84,718)<span  />
+			[38] (84,717)<span >Learn more />
+		[39] (122,718)<cm-icon aria-label='새 창에서 외부 링크 열기' class='cm-icon-external-link' role='img' />
+	서비스 약관
+	이 제품을 사용하면 다음 라이선스의 이용약관에 동의하는 것으로 간주됩니다.
+	[40] (151,830)<a href='/tos?id=universal'>Google APIs Terms of Service />
+	.
+	관련 제품
+	이 제품을 사용하는 고객이 다음 제품도 사용합니다.
+프로젝트 선택
+[41] (799,305)<button class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button purview-picker-manage-resources-button mat-primary cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' id='_0rif_cfc-labelledby-message-goog_216815565' />
+	[42] (799,306)<cm-icon  />
+[43] (500,350)<div  />
+	[44] (500,350)<div  />
+		[45] (246,337)<label class='mdc-floating-label mat-mdc-floating-label ng-star-inserted mdc-floating-label--float-above' id='_0rif_mat-mdc-form-field-label-3' />
+			[46] (246,338)<mat-label >프로젝트 및 폴더 검색 />
+		[47] (211,350)<div  />
+			[48] (209,350)<cm-icon  />
+		[49] (509,350)<div  />
+			[50] (509,350)<input aria-label='프로젝트 및 폴더 검색' class='cm-input gmat-mdc-input mat-mdc-input-element cfc-purview-picker-modal-search-input ng-pristine ng-valid mat-mdc-form-field-input-control mdc-text-field__input cdk-text-field-autofill-monitored ng-touched' id='_0rif_mat-input-3' />
+[51] (206,379)<div class='mdc-tab mat-mdc-tab mat-focus-indicator mdc-tab--active cm-mat-focus-indicator ng-star-inserted mdc-tab-indicator--active' id='_0rif_mat-tab-group-3-label-0' role='tab' />
+	[52] (206,379)<span  />
+		[53] (206,379)<span >최근 />
+[54] (275,379)<div class='mdc-tab mat-mdc-tab mat-focus-indicator cm-mat-focus-indicator ng-star-inserted' id='_0rif_mat-tab-group-3-label-1' role='tab' />
+	[55] (275,379)<span  />
+		[56] (275,379)<span  />
+			[57] (275,379)<span >별표표시됨 />
+[58] (344,379)<div class='mdc-tab mat-mdc-tab mat-focus-indicator cm-mat-focus-indicator ng-star-inserted' id='_0rif_mat-tab-group-3-label-2' role='tab' />
+	[59] (344,379)<span  />
+		[60] (344,379)<span >전체 />
+[61] (500,405)<tr  />
+	이름
+	유형
+	ID
+[62] (500,429)<tr class='cfctest-table-body-row cfc-table-body-row cfc-outline-focus-indicator ng-star-inserted' id='_0rif_cfc-table-caption-6-row-0' role='row' />
+	[63] (186,429)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-0 cfctest-table-body-column cfc-table-column-no-padding cfc-table-column-forced-left-padding ng-star-inserted' role='gridcell'>현재 항목 아님 />
+		현재 항목 아님
+	[64] (310,429)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-1 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[65] (310,429)<div  />
+			[66] (216,429)<purview-reference-icon  />
+				[67] (216,429)<cfc-resource-icon  />
+					[68] (216,429)<cm-icon class='cm-icon--vertical-align-cap-middle ng-star-inserted' role='img' />
+			[69] (259,429)<a class='cfc-purview-picker-list-name-link ng-star-inserted'>Blogger Auto />
+			[70] (302,429)<cfc-ancestry-breadcrumb-tooltip  />
+				[71] (302,429)<cfc-help-button  />
+					[72] (302,428)<button aria-label='Blogger Auto의 상위 항목 정보' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-help-button mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' />
+						[73] (302,429)<cm-icon  />
+	[74] (481,429)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-2 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[75] (460,428)<purview-reference-label >프로젝트 />
+	[76] (655,429)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-3 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[77] (601,428)<span >blogger-auto-495117 />
+	[78] (798,429)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-4 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[79] (798,429)<project-star  />
+			[80] (798,428)<mat-button-toggle class='mat-button-toggle cfc-button-toggle-icon cfc-color-primary mat-button-toggle-standalone cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device mat-button-toggle-animations-enabled' id='_0rif_mat-button-toggle-15' role='presentation' />
+				[81] (798,428)<button aria-label='Blogger Auto에 별표 추가' class='mat-button-toggle-button mat-focus-indicator' id='_0rif_mat-button-toggle-15-button' role='button' />
+					[82] (798,428)<span  />
+						[83] (798,429)<cfc-icon  />
+							[84] (798,429)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+[85] (500,453)<tr class='cfctest-table-body-row cfc-table-body-row cfc-outline-focus-indicator ng-star-inserted' id='_0rif_cfc-table-caption-6-row-1' role='row' />
+	[86] (186,453)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-0 cfctest-table-body-column cfc-table-column-no-padding cfc-table-column-forced-left-padding ng-star-inserted' role='gridcell'>현재 항목 아님 />
+		현재 항목 아님
+	[87] (310,453)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-1 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[88] (310,453)<div  />
+			[89] (216,453)<purview-reference-icon  />
+				[90] (216,453)<cfc-resource-icon  />
+					[91] (216,453)<cm-icon class='cm-icon--vertical-align-cap-middle ng-star-inserted' role='img' />
+			[92] (267,453)<a class='cfc-purview-picker-list-name-link ng-star-inserted'>My First Project />
+			[93] (316,453)<cfc-ancestry-breadcrumb-tooltip  />
+				[94] (316,453)<cfc-help-button  />
+					[95] (316,452)<button aria-label='My First Project의 상위 항목 정보' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-help-button mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' />
+						[96] (316,453)<cm-icon  />
+	[97] (481,453)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-2 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[98] (460,452)<purview-reference-label >프로젝트 />
+	[99] (655,453)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-3 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[100] (610,452)<span >utilitarian-mix-495117-j2 />
+	[101] (798,453)<td class='cfc-outline-focus-indicator cfc-table-cell-container cfc-table-cell-container-for-col-4 cfctest-table-body-column ng-star-inserted' role='gridcell' />
+		[102] (798,453)<project-star  />
+			[103] (798,452)<mat-button-toggle class='mat-button-toggle cfc-button-toggle-icon cfc-color-primary mat-button-toggle-standalone cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device mat-button-toggle-animations-enabled' id='_0rif_mat-button-toggle-16' role='presentation' />
+				[104] (798,452)<button aria-label='My First Project에 별표 추가' class='mat-button-toggle-button mat-focus-indicator' id='_0rif_mat-button-toggle-16-button' role='button' />
+					[105] (798,452)<span  />
+						[106] (798,453)<cfc-icon  />
+							[107] (798,453)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+[108] (794,694)<button class='mdc-button mat-mdc-button-base gmat-mdc-button mat-mdc-button mat-secondary cm-button'>취소 />
+	취소
+프로젝트 선택 도구 열기 (Ctrl O)
+
+</current_dom>

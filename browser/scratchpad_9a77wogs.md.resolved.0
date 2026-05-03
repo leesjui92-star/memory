@@ -1,0 +1,13 @@
+# Task: Enable Blogger API for Project 630622954521
+
+## Checklist
+- [ ] Navigate to Blogger API library page for project 630622954521
+- [ ] Check API state (Enabled/Disabled)
+- [ ] Click "Enable" button if visible
+- [ ] Verify API is enabled
+- [ ] Report findings
+
+## Notes
+- URL: https://console.developers.google.com/apis/library/blogger.googleapis.com?project=630622954521
+- User project: 630622954521
+- Goal: Enable Blogger API for Apps Script integration.

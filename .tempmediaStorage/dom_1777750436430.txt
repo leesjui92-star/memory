@@ -1,0 +1,258 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (26,18)<button aria-label='닫기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-console-nav-close-button mat-unthemed cm-button cdk-focused cdk-program-focused' />
+	[1] (26,19)<cm-icon  />
+[2] (98,18)<a aria-label='Google Cloud Platform 홈' class='cfc-logo-anchor mat-focus-indicator' href='/' />
+[3] (117,433)<div class='ng-star-inserted' role='list' scrollable='true' />
+	[4] (110,57)<a aria-label='Cloud Hub' class='cfc-console-nav-flyout-header cfc-console-nav-section-CLOUD_HUB_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/cloud-hub' />
+		[5] (93,57)<cfc-console-nav-item-title  />
+			[6] (26,57)<section-icon  />
+				[7] (26,57)<shell-nav-icon  />
+					[8] (26,57)<cm-icon  />
+			[9] (77,57)<span >Cloud Hub />
+		[10] (195,57)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[11] (195,57)<cfc-icon  />
+				[12] (195,57)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[13] (110,92)<a aria-label='Cloud 개요' class='cfc-console-nav-flyout-header cfc-console-nav-section-HOME_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/home' />
+		[14] (94,92)<cfc-console-nav-item-title  />
+			[15] (26,92)<section-icon  />
+				[16] (26,92)<shell-nav-icon  />
+					[17] (26,92)<cm-icon  />
+			[18] (77,92)<span >Cloud 개요 />
+		[19] (195,92)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[20] (195,92)<cfc-icon  />
+				[21] (195,92)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[22] (110,127)<a aria-label='솔루션' class='cfc-console-nav-flyout-header cfc-console-nav-section-ALL_PRODUCTS_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/products' />
+		[23] (93,127)<cfc-console-nav-item-title  />
+			[24] (26,127)<section-icon  />
+				[25] (26,127)<shell-nav-icon  />
+					[26] (26,127)<cm-icon  />
+			[27] (67,127)<span >솔루션 />
+		[28] (195,127)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[29] (195,127)<cfc-icon  />
+				[30] (195,127)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	즐겨 찾는 제품
+	즐겨찾는 제품이 여기에 표시됩니다.
+	제품
+	[31] (110,246)<a aria-label='결제' class='cfc-console-nav-flyout-header cfc-console-nav-flyout-no-menu cfc-console-nav-section-BILLING_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/billing' />
+		[32] (82,246)<cfc-console-nav-item-title  />
+			[33] (26,246)<section-icon  />
+				[34] (26,246)<shell-nav-icon  />
+					[35] (26,246)<cm-icon  />
+			[36] (62,246)<span >결제 />
+		[37] (175,246)<cfc-nav-pin  />
+			[38] (173,246)<button aria-label='상단에 결제 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[39] (173,247)<cm-icon  />
+	[40] (110,281)<a aria-label='IAM 및 관리자' class='cfc-console-nav-flyout-header cfc-console-nav-section-IAM_ADMIN_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/iam-admin' />
+		[41] (82,281)<cfc-console-nav-item-title  />
+			[42] (26,281)<section-icon  />
+				[43] (26,281)<shell-nav-icon  />
+					[44] (26,281)<cm-icon  />
+			[45] (85,281)<span >IAM 및 관리자 />
+		[46] (175,281)<cfc-nav-pin  />
+			[47] (173,281)<button aria-label='상단에 IAM 및 관리자 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[48] (173,283)<cm-icon  />
+		[49] (195,281)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[50] (195,282)<cfc-icon  />
+				[51] (195,282)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[52] (110,317)<a aria-label='Marketplace' class='cfc-console-nav-flyout-header cfc-console-nav-flyout-no-menu cfc-console-nav-section-MARKETPLACE_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/marketplace' />
+		[53] (82,317)<cfc-console-nav-item-title  />
+			[54] (26,317)<section-icon  />
+				[55] (26,317)<shell-nav-icon  />
+					[56] (26,317)<cm-icon  />
+			[57] (82,317)<span >Marketplace />
+		[58] (175,317)<cfc-nav-pin  />
+			[59] (173,317)<button aria-label='상단에 Marketplace 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[60] (173,318)<cm-icon  />
+	[61] (110,352)<a aria-label='API 및 서비스' class='cfc-console-nav-flyout-header cfc-console-nav-section-API_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/apis' />
+		[62] (82,352)<cfc-console-nav-item-title  />
+			[63] (26,352)<section-icon  />
+				[64] (26,352)<shell-nav-icon  />
+					[65] (26,352)<cm-icon  />
+			[66] (83,352)<span >API 및 서비스 />
+		[67] (175,352)<cfc-nav-pin  />
+			[68] (173,352)<button aria-label='상단에 API 및 서비스 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[69] (173,353)<cm-icon  />
+		[70] (195,352)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[71] (195,352)<cfc-icon  />
+				[72] (195,352)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[73] (110,387)<a aria-label='에이전트 플랫폼' class='cfc-console-nav-flyout-header cfc-console-nav-section-AGENT_PLATFORM_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/agent-platform' />
+		[74] (82,387)<cfc-console-nav-item-title  />
+			[75] (26,387)<section-icon  />
+				[76] (26,387)<shell-nav-icon  />
+					[77] (26,387)<cm-icon  />
+			[78] (89,387)<span >에이전트 플랫폼 />
+		[79] (175,387)<cfc-nav-pin  />
+			[80] (173,387)<button aria-label='상단에 에이전트 플랫폼 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[81] (173,388)<cm-icon  />
+		[82] (195,387)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[83] (195,387)<cfc-icon  />
+				[84] (195,387)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[85] (110,422)<a aria-label='Compute Engine' class='cfc-console-nav-flyout-header cfc-console-nav-section-COMPUTE_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/compute' />
+		[86] (82,422)<cfc-console-nav-item-title  />
+			[87] (26,422)<section-icon  />
+				[88] (26,422)<shell-nav-icon  />
+					[89] (26,422)<cm-icon  />
+			[90] (92,422)<span >Compute Engine />
+		[91] (175,422)<cfc-nav-pin  />
+			[92] (173,422)<button aria-label='상단에 Compute Engine 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[93] (173,423)<cm-icon  />
+		[94] (195,422)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[95] (195,422)<cfc-icon  />
+				[96] (195,422)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[97] (110,457)<a aria-label='Kubernetes Engine' class='cfc-console-nav-flyout-header cfc-console-nav-section-KUBERNETES_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/kubernetes' />
+		[98] (82,457)<cfc-console-nav-item-title  />
+			[99] (26,457)<section-icon  />
+				[100] (26,457)<shell-nav-icon  />
+					[101] (26,457)<cm-icon  />
+			[102] (98,457)<span >Kubernetes Engine />
+		[103] (175,457)<cfc-nav-pin  />
+			[104] (173,457)<button aria-label='상단에 Kubernetes Engine 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[105] (173,458)<cm-icon  />
+		[106] (195,457)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[107] (195,458)<cfc-icon  />
+				[108] (195,458)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[109] (110,492)<a aria-label='Cloud Storage' class='cfc-console-nav-flyout-header cfc-console-nav-section-STORAGE_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/storage' />
+		[110] (82,492)<cfc-console-nav-item-title  />
+			[111] (26,492)<section-icon  />
+				[112] (26,492)<shell-nav-icon  />
+					[113] (26,492)<cm-icon  />
+			[114] (86,492)<span >Cloud Storage />
+		[115] (175,492)<cfc-nav-pin  />
+			[116] (173,492)<button aria-label='상단에 Cloud Storage 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[117] (173,494)<cm-icon  />
+		[118] (195,492)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[119] (195,493)<cfc-icon  />
+				[120] (195,493)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[121] (110,528)<a aria-label='보안' class='cfc-console-nav-flyout-header cfc-console-nav-section-SECURITY_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/security/command-center' />
+		[122] (82,528)<cfc-console-nav-item-title  />
+			[123] (26,528)<section-icon  />
+				[124] (26,528)<shell-nav-icon  />
+					[125] (26,528)<cm-icon  />
+			[126] (62,528)<span >보안 />
+		[127] (175,528)<cfc-nav-pin  />
+			[128] (173,528)<button aria-label='상단에 보안 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[129] (173,529)<cm-icon  />
+		[130] (195,528)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[131] (195,528)<cfc-icon  />
+				[132] (195,528)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[133] (110,563)<a aria-label='BigQuery' class='cfc-console-nav-flyout-header cfc-console-nav-section-BIGQUERY_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/bigquery' />
+		[134] (82,563)<cfc-console-nav-item-title  />
+			[135] (26,563)<section-icon  />
+				[136] (26,563)<shell-nav-icon  />
+					[137] (26,563)<cm-icon  />
+			[138] (74,563)<span >BigQuery />
+		[139] (175,563)<cfc-nav-pin  />
+			[140] (173,563)<button aria-label='상단에 BigQuery 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[141] (173,564)<cm-icon  />
+		[142] (195,563)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[143] (195,563)<cfc-icon  />
+				[144] (195,563)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[145] (110,598)<a aria-label='모니터링' class='cfc-console-nav-flyout-header cfc-console-nav-section-MONITORING_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/monitoring' />
+		[146] (82,598)<cfc-console-nav-item-title  />
+			[147] (26,598)<section-icon  />
+				[148] (26,598)<shell-nav-icon  />
+					[149] (26,598)<cm-icon  />
+			[150] (72,598)<span >모니터링 />
+		[151] (175,598)<cfc-nav-pin  />
+			[152] (173,598)<button aria-label='상단에 모니터링 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[153] (173,599)<cm-icon  />
+		[154] (195,598)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[155] (195,598)<cfc-icon  />
+				[156] (195,598)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[157] (110,633)<a aria-label='Cloud Run' class='cfc-console-nav-flyout-header cfc-console-nav-section-SERVERLESS_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/run' />
+		[158] (82,633)<cfc-console-nav-item-title  />
+			[159] (26,633)<section-icon  />
+				[160] (26,633)<shell-nav-icon  />
+					[161] (26,633)<cm-icon  />
+			[162] (77,633)<span >Cloud Run />
+		[163] (175,633)<cfc-nav-pin  />
+			[164] (173,633)<button aria-label='상단에 Cloud Run 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[165] (173,634)<cm-icon  />
+		[166] (195,633)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[167] (195,633)<cfc-icon  />
+				[168] (195,633)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[169] (110,668)<a aria-label='VPC 네트워크' class='cfc-console-nav-flyout-header cfc-console-nav-section-VIRTUAL_NETWORK_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/networking' />
+		[170] (82,668)<cfc-console-nav-item-title  />
+			[171] (26,668)<section-icon  />
+				[172] (26,668)<shell-nav-icon  />
+					[173] (26,668)<cm-icon  />
+			[174] (84,668)<span >VPC 네트워크 />
+		[175] (175,668)<cfc-nav-pin  />
+			[176] (173,668)<button aria-label='상단에 VPC 네트워크 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[177] (173,669)<cm-icon  />
+		[178] (195,668)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[179] (195,669)<cfc-icon  />
+				[180] (195,669)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[181] (110,703)<a aria-label='데이터베이스' class='cfc-console-nav-flyout-header cfc-console-nav-section-DATABASES_HOME_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/databases' />
+		[182] (82,703)<cfc-console-nav-item-title  />
+			[183] (26,703)<section-icon  />
+				[184] (26,703)<shell-nav-icon  />
+					[185] (26,703)<cm-icon  />
+			[186] (82,703)<span >데이터베이스 />
+		[187] (175,703)<cfc-nav-pin  />
+			[188] (173,703)<button aria-label='상단에 데이터베이스 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[189] (173,705)<cm-icon  />
+		[190] (195,703)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[191] (195,704)<cfc-icon  />
+				[192] (195,704)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[193] (110,739)<a aria-label='Cloud SQL' class='cfc-console-nav-flyout-header cfc-console-nav-section-SQL_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/sql' />
+		[194] (82,739)<cfc-console-nav-item-title  />
+			[195] (26,739)<section-icon  />
+				[196] (26,739)<shell-nav-icon  />
+					[197] (26,739)<cm-icon  />
+			[198] (77,739)<span >Cloud SQL />
+		[199] (175,739)<cfc-nav-pin  />
+			[200] (173,739)<button aria-label='상단에 Cloud SQL 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[201] (173,740)<cm-icon  />
+		[202] (195,739)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[203] (195,739)<cfc-icon  />
+				[204] (195,739)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[205] (110,774)<a aria-label='Google Maps Platform' class='cfc-console-nav-flyout-header cfc-console-nav-section-MAPS_SECTION mat-focus-indicator cfc-tooltip ng-star-inserted' href='/google/maps-apis' />
+		[206] (82,774)<cfc-console-nav-item-title  />
+			[207] (26,774)<section-icon  />
+				[208] (26,774)<shell-nav-icon  />
+					[209] (26,774)<cm-icon  />
+			[210] (107,774)<span >Google Maps Platform />
+		[211] (175,774)<cfc-nav-pin  />
+			[212] (173,774)<button aria-label='상단에 Google Maps Platform 즐겨찾기 추가' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-section-pin-button hidden mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+				[213] (173,775)<cm-icon  />
+		[214] (195,774)<button aria-label='하위 메뉴 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small cfc-console-nav-flyout-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+			[215] (195,774)<cfc-icon  />
+				[216] (195,774)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	고정하면 여기에 표시됩니다.
+	[217] (183,809)<button aria-label='고정된 제품 도움말' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-help-button mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' />
+		[218] (183,809)<cm-icon  />
+	[219] (202,809)<button aria-label='닫기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button cfc-button-small coachmark-action-icon mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+		[220] (202,809)<cfc-icon  />
+			[221] (202,809)<mat-icon class='mat-icon notranslate mat-icon-no-color ng-star-inserted' role='img' />
+	[222] (117,962)<a class='flyout-footer-item product-overview-btn ng-star-inserted' href='/products' />
+		[223] (117,962)<div  />
+			[224] (26,962)<cm-icon  />
+			[225] (143,962)<span >모든 제품 보기 />
+	[226] (117,988)<a class='flyout-footer-item ng-star-inserted' href='/vertex-ai/studio/settings/api-keys' />
+		[227] (117,988)<div  />
+			[228] (26,988)<cm-icon  />
+			[229] (126,988)<span >Agent Platform API 키 가져오기 />
+			[230] (207,988)<cm-icon class='footer-item-info-icon cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device' id='cfc-labelledby-message-goog_1373710508' role='img' />
+기본 콘텐츠로 건너뛰기
+키보드 단축키
+접근성 도움말
+접근성 관련 의견
+[231] (256,19)<button aria-label='탐색 메뉴 (.)' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted pcc-platform-bar-button-open' />
+	[232] (256,19)<cm-icon  />
+[233] (330,19)<a aria-label='Google Cloud Platform 홈' class='cfc-logo-anchor mat-focus-indicator' href='/' />
+[234] (409,19)<button aria-label='선택한 프로젝트가 없습니다. 프로젝트, 폴더 또는 조직을 선택하려면 Enter 키를 누르세요.' class='mdc-button mat-mdc-button-base gmat-mdc-button ng-tns-c1932759562-2 mat-mdc-button cfc-switcher-button new-switcher-button mat-unthemed cm-button' />
+[235] (612,19)<div class='pcc-combobox' role='combobox' />
+	[236] (627,19)<input aria-label='쿼리를 입력하여 리소스, 문서, 제품 등 검색' class='cm-input gmat-mdc-input mat-mdc-input-element pcc-search-input ng-untouched ng-pristine ng-valid cdk-text-field-autofill-monitored' id='mat-input-0' placeholder='리소스, 문서, 제품 등 검색(/)' />
+검색
+[237] (917,19)<button aria-label='읽지 않은 알림 5개 알림 열기' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' />
+	[238] (917,19)<div  />
+		[239] (917,19)<div  />
+			[240] (917,14)<div >5 />
+[241] (949,19)<button aria-label='설정 및 유틸리티' class='mdc-icon-button mat-mdc-icon-button mat-mdc-button-base gmat-mdc-button pcc-platform-bar-button mat-focus-indicator mat-unthemed cm-button cfc-tooltip cfc-tooltip-disable-user-select-on-touch-device ng-star-inserted' id='pcc-utilities-menu-trigger' />
+	[242] (949,19)<cm-icon  />
+
+</current_dom>

@@ -1,0 +1,61 @@
+# 포모도로 타이머 웹 애플리케이션 개발 계획 🍅
+
+대표님! 말씀하신 귀엽고 깜찍한 포모도로 타이머 애플리케이션 개발 계획서입니다. 최신 기술 스택인 React와 Vite, 그리고 Tailwind CSS를 팍팍 써서 빠르고 예쁘게 만들어보겠습니다!
+
+## User Review Required
+
+> [!IMPORTANT]
+> **디자인 컨셉 확인 요청**
+> "아주 귀엽게" 만들어야 하므로, 다크 테마를 기반으로 하되 타이머 중앙에 아주 귀여운 토마토 캐릭터(제가 AI로 하나 예쁘게 뽑아보겠습니다!)를 배치하고 파스텔 톤의 포인트 색상을 사용하려고 합니다. 
+> 
+> **집중 시간(25분)**: 포근한 코랄 레드
+> **휴식 시간(5분)**: 부드러운 민트 그린
+> 
+> 혹시 특별히 원하시는 귀여운 요소나 색상이 있으시면 말씀해주십시오!
+
+## Open Questions
+
+> [!TIP]
+> 대표님, 프로젝트 폴더 이름은 `pomodoro`로 하여 현재 작업 중이신 `초보프로젝트` 폴더 아래에 생성해도 괜찮겠습니까?
+
+## Proposed Changes
+
+### 프로젝트 초기화 및 환경 설정
+
+Vite와 Tailwind CSS를 활용해 최신 트렌드에 맞는 빠릿빠릿한 프로젝트를 세팅합니다.
+
+#### [NEW] 프로젝트 폴더 `pomodoro` 생성 및 초기화
+- `npx -y create-vite@latest pomodoro --template react` 명령어를 통해 React+Vite 뼈대 구축
+- Tailwind CSS 설치 및 설정 (`tailwind.config.js`, `postcss.config.js` 구성)
+
+---
+
+### 코어 애플리케이션 개발 (React Components)
+
+#### [NEW] `pomodoro/src/App.jsx`
+타이머의 핵심 로직과 화면 배치가 들어가는 메인 컴포넌트입니다.
+- **상태 관리**: `timeLeft`(남은 시간), `isActive`(타이머 작동 여부), `isFocus`(집중/휴식 모드)
+- **주요 기능**:
+  - `toggleTimer`: 시작/일시정지 기능
+  - `resetTimer`: 타이머 초기화 기능
+  - `switchMode`: 25분 집중과 5분 휴식을 전환하는 기능
+
+#### [NEW] `pomodoro/src/index.css`
+Tailwind CSS의 기본 지시어를 추가하고, 전체 다크 테마 배경 및 폰트 스타일(둥글둥글하고 귀여운 폰트 적용)을 설정합니다.
+
+---
+
+### 에셋 (Assets)
+
+#### [NEW] `pomodoro/src/assets/cute-tomato.png`
+타이머 화면을 아주 귀엽게 장식해 줄 토마토 캐릭터 이미지를 AI 이미지 생성기로 제작하여 삽입하겠습니다.
+
+## Verification Plan
+
+### Automated Tests
+- 코드 작성 후 `npm run dev` 명령어를 통해 로컬 개발 서버를 띄워 작동을 확인합니다.
+- 브라우저 환경에서 버튼(Start/Pause/Reset) 클릭 시 타이머가 정상적으로 카운트다운 되는지 테스트합니다.
+- 시간이 0이 되었을 때 집중/휴식 모드가 자동으로 전환되거나 알림이 오는지 테스트합니다.
+
+### Manual Verification
+- 대표님께서 직접 브라우저를 통해 다크 테마와 귀여운 디자인 요소가 잘 어우러지는지, 반응형으로 화면 크기를 줄여도 예쁘게 보이는지 확인해 주시면 됩니다.

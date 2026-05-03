@@ -1,0 +1,4 @@
+- [x] `@google/generative-ai` 라이브러리 설치
+- [x] `.env` 파일에 `GEMINI_API_KEY` 환경변수 추가
+- [x] `auto_post.js`에 AI 글쓰기 봇(Gemini) 연동 로직 추가
+- [x] AI가 작성한 글을 블로그로 바로 업로드하도록 파이프라인 수정

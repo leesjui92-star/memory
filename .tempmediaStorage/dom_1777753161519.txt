@@ -1,0 +1,80 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (968,1020)<a class='naver-splugin btn_splugin share' href='#' id='spiButton' />
+	[1] (988,1000)<span  />
+[2] (667,14)<a class='link' href='https://blog.naver.com/MyBlog.naver'>내 블로그 />
+[3] (723,14)<a class='link' href='https://nid.naver.com/nidlogin.login?mode=form&url=https://blog.naver.com/leesjui'>이웃블로그 />
+[4] (778,14)<a class='link' href='https://section.blog.naver.com'>블로그 홈 />
+[5] (829,14)<a class='btn_blog_login' href='https://nid.naver.com/nidlogin.login?mode=form&url=https://blog.naver.com/leesjui/224272825073' />
+	[6] (811,5)<span  />
+[7] (865,13)<a class='gnb_service' href='javascript:;' />
+	[8] (857,6)<span  />
+	[9] (865,14)<span  />
+[10] (136,43)<a class='on itemfont _doNclick _param(false|blog|)' href='https://blog.naver.com/PostList.naver?blogId=leesjui&skinType=&skinId=&from=menu'>블로그 />
+[11] (740,43)<a class='off itemfont _doNclick _param(false|mapview)' href='https://blog.naver.com/mapview/MapView.naver?blogId=leesjui&skinType=&skinId=&from=menu'>지도 />
+[12] (770,43)<a class='off itemfont _doNclick _param(false|library)' href='https://blog.naver.com/library/LibraryView.naver?blogId=leesjui&skinType=&skinId=&from=menu'>서재 />
+[13] (801,43)<a class='off itemfont _doNclick _param(false|memolog)' href='https://blog.naver.com/memo/MemologPostList.naver?blogId=leesjui&Redirect=MemoList&skinType=&skinId=&from=menu'>메모 />
+[14] (832,43)<a class='off itemfont _doNclick _param(false|tag)' href='https://blog.naver.com/BlogPrivateTagCloud.naver?blogId=leesjui&Redirect=Dtagcloud&skinType=&skinId=&from=menu'>태그 />
+[15] (862,43)<a class='off itemfont _doNclick _param(false|guestbook)' href='https://blog.naver.com/guestbook/GuestBookList.naver?blogId=leesjui&skinType=&skinId=&from=menu'>안부 />
+[16] (494,243)<table role='presentation' />
+	[17] (494,243)<tbody  />
+		[18] (494,243)<tr  />
+			[19] (494,243)<td  />
+[20] (288,458)<a class='pcol2 _toggleTopList _returnFalse' href='#' id='categoryTitle' role='button' title='현황 목록 닫고 열기' />
+	[21] (288,458)<strong >현황 />
+13개의 글
+[22] (845,458)<a class='btn_openlist pcol2 _toggleTopList _returnFalse' href='#' role='button' />
+	[23] (825,451)<span  />
+	[24] (845,458)<span >목록열기 />
+[25] (305,542)<a class='pcol2' href='/PostList.naver?blogId=leesjui&categoryNo=1&from=postList&parentCategoryNo=1'>현황 />
+실내 공기정화 식물 추천 5가지! 초보자도 키우기 쉬운 반려식물 가이드
+[26] (306,680)<a class='link' href='https://blog.naver.com/leesjui' />
+	[27] (306,680)<img  />
+[28] (338,680)<a class='link pcol2' href='https://blog.naver.com/leesjui'>JRock />
+・
+2시간 전
+[29] (737,680)<a class='url pcol2 _setClipboard _returnFalse _se3copybtn _transPosition' href='#' id='copyBtn_224272825073' title='https://blog.naver.com/leesjui/224272825073'>URL 복사 />
+[30] (802,680)<a class='btn_buddy btn_addbuddy pcol2 _buddy_popup_btn _returnFalse _rosRestrictAll' href='#'>이웃추가 />
+	[31] (781,680)<i  />
+	[32] (802,680)<i  />
+[33] (847,680)<a class='btn_overflow_menu _open_overflowmenu pcol2 _param(224272825073) _returnFalse' href='#' role='button' />
+	[34] (849,674)<span >본문 기타 기능 />
+안녕하세요! 요즘은 인테리어 효과뿐만 아니라 건강을 위해 실내에서 식물을 키우는 '플랜테리어(Plant + Interior)'가 대세죠. 하지만 막상 식물을 들여오면 얼마 못 가 시들어버려 속상했던 경험, 다들 한 번쯤 있으실 거예요.
+[35] (181,511)<a class='_param(https://blogpfthumb-phinf.pstatic.net/MjAyNjA1MDJfMjk0/MDAxNzc3NzI4NDQ4NDYz.wpV7ClSUbkaP32WVFTOyrlkN7_csRdqCxvVYByPnsRkg.l6YQIgAg98Ph95jyscmCrbGCJvXenTbDXgLmVqMbrm8g.PNG/Gemini_Generated_Image_itiqw0itiqw0itiq.png/Gemini_Generated_Image_itiqw0itiqw0itiq.png|false|false) _returnFalse' href='#' />
+	[36] (181,479)<img alt='프로필 이미지' />
+JRock
+leesjui
+[37] (136,572)<a class='col sub' href='https://blog.naver.com/profile/intro.naver?blogId=leesjui'>프로필 />
+[38] (181,604)<a class='btn btn_add_nb _addBuddyPop _rosRestrictAll _returnFalse' href='#' />
+	[39] (124,590)<span  />
+[40] (181,687)<div  />
+	[41] (145,688)<h3  />
+		[42] (145,688)<span >카테고리 />
+	[43] (237,686)<p  />
+		[44] (237,689)<span  />
+			[45] (237,686)<button class='cm-icol listup _viewMore' id='category-list-i' title='카테고리 열림' />
+				[46] (237,689)<span >^ />
+[47] (157,711)<a class='itemfont cm-col1 _selectCurrentCategory _param(1000013777|13317|widget_category|0) on' href='/PostList.naver?blogId=leesjui&categoryNo=0&from=postList ' id='category0'>전체보기 />
+(13)
+[48] (143,750)<a class='itemfont cm-col1 _selectCurrentCategory _param(1000013777|13317|widget_category|1)' href='/PostList.naver?blogId=leesjui&from=postList&categoryNo=1 ' id='category1'>현황 />
+[49] (181,803)<div  />
+[50] (145,804)<span >최근댓글 />
+[51] (237,802)<input class='cm-icol _viewMore listup' id='comment-list-i' title='최근댓글 닫힘' />
+[52] (185,827)<a class='itemfont cm-col1 _param(1000013774|40381|widget_recent_reply)' href='https://blog.naver.com/PostView.naver?blogId=leesjui&logNo=224272794037' />
+	[53] (185,827)<span >식비 절약하는 가계부 ... />
+[54] (181,878)<div  />
+[55] (152,879)<span >이웃 블로거 />
+[56] (237,877)<button class='cm-icol listup _viewMore' id='buddy-list-i' title='이웃 블로거 열림' />
+	[57] (237,880)<span >^ />
+[58] (153,902)<a class='itemfont cm-col1 _viewBuddyListByGroup _returnFalse _param(leesjui|1)' href='#'>새 그룹 />
+[59] (154,955)<a class='rss1' href='https://rss.blog.naver.com/leesjui.xml' />
+	[60] (137,949)<span  />
+[61] (187,955)<a class='rss2' href='https://rss.blog.naver.com/leesjui.xml?rss=1.0' />
+	[62] (170,949)<span  />
+[63] (223,955)<a class='rss3' href='https://rss.blog.naver.com/leesjui.xml?atom=0.3' />
+	[64] (204,949)<span  />
+0
+
+</current_dom>
