@@ -1,0 +1,11 @@
+{
+  "ceo": "google/gemma-3n-e2b",
+  "secretary": "nvidia/nemotron-3-nano-omni",
+  "youtube": "nvidia/nemotron-3-nano-omni",
+  "researcher": "nvidia/nemotron-3-nano-omni",
+  "business": "nvidia/nemotron-3-nano-omni",
+  "writer": "nvidia/nemotron-3-nano-omni",
+  "editor": "nvidia/nemotron-3-nano-omni",
+  "designer": "google/gemma-4-e2b",
+  "instagram": "nvidia/nemotron-3-nano-omni"
+}
