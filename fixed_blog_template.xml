@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title.escaped/></title>
+    <b:include data='blog' name='all-head-content'/>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&amp;family=Noto+Sans+KR:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+
+    <b:skin version='1.3.3'><![CDATA[
+      :root {
+        --primary-color: #6366f1;
+        --secondary-color: #4f46e5;
+        --bg-color: #f8fafc;
+        --card-bg: #ffffff;
+        --text-main: #1e293b;
+        --text-sub: #64748b;
+        --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        font-family: 'Outfit', 'Noto Sans KR', sans-serif;
+        margin: 0;
+        line-height: 1.7;
+        word-break: keep-all;
+      }
+
+      /* Header & Nav */
+      header {
+        background: var(--accent-gradient);
+        padding: 80px 20px;
+        text-align: center;
+        color: white;
+        clip-path: ellipse(150% 100% at 50% 0%);
+      }
+      header h1 {
+        font-size: 3rem;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -1px;
+      }
+      header h1 a {
+        color: white;
+        text-decoration: none;
+      }
+      header p {
+        opacity: 0.9;
+        font-size: 1.1rem;
+        margin-top: 10px;
+      }
+
+      nav {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+        padding: 15px 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+      nav a {
+        color: var(--text-main);
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: all 0.3s ease;
+        padding: 5px 12px;
+        border-radius: 6px;
+      }
+      nav a:hover {
+        color: var(--primary-color);
+        background: rgba(99, 102, 241, 0.05);
+      }
+
+      /* Main Content */
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      
+      .post-card {
+        background: var(--card-bg);
+        border-radius: 20px;
+        padding: 40px;
+        margin-bottom: 40px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid rgba(0,0,0,0.02);
+      }
+      .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+      }
+      
+      .post-card h2 {
+        font-size: 2rem;
+        margin: 0 0 20px 0;
+        line-height: 1.3;
+      }
+      .post-card h2 a {
+        color: var(--text-main);
+        text-decoration: none;
+        background: linear-gradient(to right, var(--primary-color), var(--primary-color)) no-repeat 0 100%;
+        background-size: 0 2px;
+        transition: background-size 0.3s ease;
+      }
+      .post-card:hover h2 a {
+        background-size: 100% 2px;
+      }
+      
+      .post-body {
+        color: var(--text-sub);
+        font-size: 1.1rem;
+      }
+      
+      /* Footer */
+      footer {
+        background: #1e293b;
+        color: #f8fafc;
+        padding: 60px 20px;
+        text-align: center;
+        margin-top: 100px;
+      }
+      footer p { opacity: 0.6; font-size: 0.9rem; }
+      
+      /* Utilities */
+      .btn-more {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 10px 24px;
+        background: var(--primary-color);
+        color: white;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.3s ease;
+      }
+      .btn-more:hover { background: var(--secondary-color); }
+
+      @media (max-width: 768px) {
+        header h1 { font-size: 2rem; }
+        .post-card { padding: 25px; }
+        .post-card h2 { font-size: 1.5rem; }
+      }
+    ]]></b:skin>
+  </head>
+
+  <body>
+    <header>
+      <div class='container'>
+        <b:section id='header' name='Header' showaddelement='false'>
+          <b:widget id='Header1' locked='true' title='그대들의 블로그' type='Header' visible='true'>
+            <b:includable id='main'>
+              <h1><a expr:href='data:blog.homepageUrl'><data:title/></a></h1>
+              <p><data:description/></p>
+            </b:includable>
+          </b:widget>
+        </b:section>
+      </div>
+    </header>
+
+    <nav>
+      <div class='container' style='padding:0;'>
+        <b:section id='navigation' name='Navigation' showaddelement='true'>
+          <b:widget id='PageList1' locked='false' title='Pages' type='PageList' visible='true'>
+            <b:includable id='main'>
+              <ul>
+                <li><a expr:href='data:blog.homepageUrl'>Home</a></li>
+                <b:loop values='data:links' var='link'>
+                  <li>
+                    <a expr:href='data:link.href'><data:link.title/></a>
+                  </li>
+                </b:loop>
+              </ul>
+            </b:includable>
+          </b:widget>
+        </b:section>
+      </div>
+    </nav>
+
+    <div class='container'>
+      <main id='main' role='main'>
+        <b:section class='main' id='page_body' name='Page Body'>
+          <b:widget id='Blog1' locked='true' title='블로그 게시물' type='Blog' visible='true'>
+            <b:includable id='main'>
+              <b:loop values='data:posts' var='post'>
+                <article class='post-card'>
+                  <b:if cond='data:post.title'>
+                    <h2><a expr:href='data:post.url'><data:post.title/></a></h2>
+                  </b:if>
+                  <div class='post-body'>
+                    <data:post.body/>
+                  </div>
+                  <a class='btn-more' expr:href='data:post.url'>Read More</a>
+                </article>
+              </b:loop>
+            </b:includable>
+          </b:widget>
+        </b:section>
+      </main>
+    </div>
+
+    <footer>
+      <div class='container'>
+        <h3><data:blog.title/></h3>
+        <p>반려견의 건강한 삶을 위한 최선의 파트너</p>
+        <p style='margin-top:30px;'>&#169; 2024. All Rights Reserved.</p>
+        <b:section id='footer' name='Footer' showaddelement='false'>
+          <b:widget id='Attribution1' locked='true' type='Attribution' visible='true'>
+            <b:includable id='main'>
+              Powered by Blogger
+            </b:includable>
+          </b:widget>
+        </b:section>
+      </div>
+    </footer>
+  </body>
+</html>

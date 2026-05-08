@@ -1,4 +1,12 @@
 # Connect AI auto-generated
+node_modules/
+.env
+*.json
+!package.json
+!package-lock.json
+!naver_cookies.json
+credentials.json
+*.log
 .DS_Store
 .obsidian/
 .trash/
