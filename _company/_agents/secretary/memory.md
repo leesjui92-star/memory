@@ -12,3 +12,4 @@ _Secretary 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-05-03] 현재 모든 에이전트는 비즈니스 전략에만 집중해야 합니다. 개인적인 대화는 업무 시간 외로 미루고, 즉시 다음 작업 브리핑을 재개합니다. → 산출물 sessions/2026-05-03T12-41/secretary.md
 - [2026-05-05] 새로 구축된 '지식 수집 시스템(Knowledge Acquisition System)'의 작동 원리를 요약하고, 이 시스템이 향후 콘텐츠 기획 단계에서 어떤 역할을 수행할지 상세한 작업 보고서(Operational Manual)를 작성합니다. → 산출물 sessions/2026-05-05T11-58/secretary.md
 - [2026-05-05] 현재까지의 작업 흐름(Knowledge Ingestion Gateway API 구축 완료 및 Reaction Hotspot 데이터 확보)을 바탕으로 '다음 24시간 운영 보고서' 초안을 작성해 주세요. 이 보고서는 CEO에게 제출하는 형식이어야 하며, 다음 단계 액션 플랜 3가지와 핵심 지표(KRS)의 현재 상태를 요약해야 합니다. → 산출물 sessions/2026-05-05T12-29/secretary.md
+- [2026-05-08] Researcher와 Business 에이전트의 실패 원인(LLM 호출 실패)을 분석하고, 다음 작업 분배 시 모델 로드/Context Length 제약을 고려하여 더 안정적인 실행 방안을 제시하라. → 산출물 sessions/2026-05-08T02-14/secretary.md

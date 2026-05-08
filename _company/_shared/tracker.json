@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": "20260508123010-u038",
+      "title": "모든 자막은 가독성이 높고, 영상 분위기에 맞는 폰트를 사용했는가? (최소 크기 및 명암비 검토)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-08T12:30:10.639Z",
+      "status": "pending",
+      "sessionDir": "2026-05-08T12-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260508123010-cx2k",
+      "title": "각 구간별로 BGM과 사운드 이펙트(SE)의 볼륨 변화를 의도적으로 설계했는가? (단순 배경음악 X)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-08T12:30:10.656Z",
+      "status": "pending",
+      "sessionDir": "2026-05-08T12-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260508123010-jfmc",
+      "title": "3초 HOOK 부분은 편집자가 '시간을 벌기 위해' 느슨하게 만들지 않았는지 검토.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-08T12:30:10.671Z",
+      "status": "pending",
+      "sessionDir": "2026-05-08T12-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260508123010-mifh",
+      "title": "최종 아웃트로에서 CTA 메시지가 명확히 전달되었으며, 클릭할 만한 심리적 압박감을 주었는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-08T12:30:10.683Z",
+      "status": "pending",
+      "sessionDir": "2026-05-08T12-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    }
+  ]
+}

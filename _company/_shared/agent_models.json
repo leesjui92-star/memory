@@ -1,11 +1,11 @@
 {
-  "ceo": "google/gemma-3n-e2b",
-  "secretary": "nvidia/nemotron-3-nano-omni",
-  "youtube": "nvidia/nemotron-3-nano-omni",
-  "researcher": "nvidia/nemotron-3-nano-omni",
-  "business": "nvidia/nemotron-3-nano-omni",
-  "writer": "nvidia/nemotron-3-nano-omni",
-  "editor": "nvidia/nemotron-3-nano-omni",
+  "ceo": "google/gemma-4-e2b",
+  "youtube": "google/gemma-4-e4b:2",
+  "instagram": "google/gemma-4-e4b:2",
   "designer": "google/gemma-4-e2b",
-  "instagram": "nvidia/nemotron-3-nano-omni"
+  "business": "google/gemma-4-e4b:2",
+  "secretary": "google/gemma-4-e4b:2",
+  "editor": "google/gemma-4-e4b:2",
+  "writer": "google/gemma-4-e4b:2",
+  "researcher": "google/gemma-4-e4b:2"
 }
