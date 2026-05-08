@@ -1,23 +1,23 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 8. 오후 10:01:02_
+_업데이트: 2026. 5. 8. 오후 10:23:01_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
-- [2026-05-08] Designer와 Writer가 도출한 '시스템 오류 폭로' 서사에 기반하여, 다음 쇼츠 영상의 최종 Hook, Flow, Call to Action(CTA) 지침을 확정하고, 이 기획안을 실제 제작에 바로 사용할 수 있도록 구체적인 실행 가이드라인으로 정리하라. → 자격증명 부족으로 차단됨
-- [2026-05-08] Designer와 Writer가 도출한 '시스템 오류 폭로' 서사에 기반하여, 다음 쇼츠 영상의 최종 Hook, Flow, Call to Action(CTA) 지침을 확정하고, 이 기획안을 실제 제작에 바로 사용할 수 있도록 구체적인 실행 가이드라인을 최종 정리하라. → 자격증명 부족으로 차단됨
 - [2026-05-08] Designer와 Writer가 도출한 '시스템 오류 폭로' 서사에 기반하여, 쇼츠 영상의 최종 Hook, Flow, Call to Action(CTA) 지침을 실제 제작에 바로 사용할 수 있도록 구체적인 실행 가이드라인으로 최종 정리하라. → 산출물 sessions/2026-05-08T12-29/youtube.md
+- [2026-05-08] 데이터 파이프라인 안정화 결과를 바탕으로, 현재 진행 중인 유튜브 숏폼 영상 기획의 다음 단계(Hook, Flow, CTA)에 필요한 데이터 기반의 실행 가이드라인 초안을 작성하라. → 산출물 sessions/2026-05-08T13-14/youtube.md
+- [2026-05-08] 파일 '_agents/youtube/config.md'에 YOUTUBE_OAUTH_CLIENT_ID: <Google Cloud Console OAuth 2.0 Client ID> 와 YOUTUBE_OAUTH_CLIENT_SECRET: <Client Secret> 를 추가하고, Authorized redirect URI에 http://127.0.0.1:5814/yt-oauth-callback 을 등록하는 작업을 수행하라. → 산출물 sessions/2026-05-08T13-22/youtube.md
 ### 🎨 Designer
 - [2026-05-08] Writer가 작성할 최종 기획안의 흐름(Flow)과 CTA에 필요한 핵심 시각적 요소 및 불안감을 극대화하는 비주얼 시스템 에셋 목록을 검토하고, 실행 가능한 최종 비주얼 요구사항을 정리하라. → 산출물 sessions/2026-05-08T09-59/designer.md
 - [2026-05-08] Writer가 작성할 최종 기획안의 흐름(Flow)과 CTA에 필요한 핵심 시각적 요소 및 불안감을 극대화하는 비주얼 시스템 에셋 목록을 검토하고, 실제 영상 제작에 적용 가능한 최종 비주얼 요구사항을 정리하라. → 산출물 sessions/2026-05-08T12-29/designer.md
 - [2026-05-08] 이전 단계에서 정의된 'Neon Cyan'과 '고대비' 시스템을 실제 영상 템플릿에 적용하여, 모든 쇼츠 영상에 일관성 있는 디자인 포맷 및 비주얼 에셋을 확보하라. → 산출물 sessions/2026-05-08T12-44/designer.md
 ### 💻 Developer
-- [2026-05-08] KRS 점수 기반 유료 진단 서비스의 가격 책정 및 판매 로드맵 실행을 위해, Knowledge Ingestion Gateway API와 데이터 파이프라인의 안정성을 최종적으로 확보하고 LLM 호출 실패에 대비한 Retry 메커니즘을 완벽하게 구현하고 테스트하라. → 산출물 sessions/2026-05-08T04-59/developer.md
 - [2026-05-08] Writer가 제시한 스크립트 중 가장 효과적인 버전(A 또는 B)을 기반으로, 영상의 몰입도와 긴장감을 극대화하는 편집 및 사운드 이펙트(SE) 연출 로직을 코드로 구현하고 테스트하라. → 산출물 sessions/2026-05-08T12-44/developer.md
 - [2026-05-08] Writer가 제공할 스크립트를 기다리면서, 현재 정의된 편집 및 사운드 이펙트 연출 로직에 대한 Python 코드 구현을 선행하여 작업 대기 시간을 최소화하라. → 산출물 sessions/2026-05-08T12-59/developer.md
+- [2026-05-08] Knowledge Ingestion Gateway API의 인증 설정 문제를 최종 해결하고, LLM 호출 실패에 대비한 Retry 메커니즘이 모든 데이터 파이프라인에서 완벽하게 작동하도록 테스트 및 안정화하라. → 산출물 sessions/2026-05-08T13-14/developer.md
 ### 💰 Business
-- [2026-05-08] Developer가 안정화한 KRS 점수를 기반으로, 유료 진단 서비스의 최종 가격 책정 앵커링 효과와 다음 주차 판매 로드맵(KPI 포함)을 즉시 구체화하고 업데이트하라. → 산출물 sessions/2026-05-08T05-14/business.md
 - [2026-05-08] Developer가 안정화한 KRS 점수를 기반으로, 유료 진단 서비스의 최종 가격 책정 앵커링 효과와 다음 주차 판매 로드맵(KPI 포함)을 구체적으로 수립하라. → 산출물 sessions/2026-05-08T07-59/business.md
 - [2026-05-08] Developer가 안정화한 KRS 점수를 기반으로, 유료 진단 서비스의 최종 가격 책정 앵커링 효과와 다음 주차 판매 로드맵(KPI 포함)을 구체적으로 수립하고 보고하라. → 산출물 sessions/2026-05-08T08-14/business.md
+- [2026-05-08] Developer가 안정화한 KRS 점수를 기반으로, 유료 진단 서비스의 최종 가격 책정 앵커링 효과와 다음 주차 판매 로드맵(KPI 포함)을 구체적으로 수립하고 보고하라. → 산출물 sessions/2026-05-08T13-14/business.md
 ### 📱 영숙
 - [2026-05-05] 새로 구축된 '지식 수집 시스템(Knowledge Acquisition System)'의 작동 원리를 요약하고, 이 시스템이 향후 콘텐츠 기획 단계에서 어떤 역할을 수행할지 상세한 작업 보고서(Operational Manual)를 작성합니다. → 산출물 sessions/2026-05-05T11-58/secretary.md
 - [2026-05-05] 현재까지의 작업 흐름(Knowledge Ingestion Gateway API 구축 완료 및 Reaction Hotspot 데이터 확보)을 바탕으로 '다음 24시간 운영 보고서' 초안을 작성해 주세요. 이 보고서는 CEO에게 제출하는 형식이어야 하며, 다음 단계 액션 플랜 3가지와 핵심 지표(KRS)의 현재 상태를 요약해야 합니다. → 산출물 sessions/2026-05-05T12-29/secretary.md
