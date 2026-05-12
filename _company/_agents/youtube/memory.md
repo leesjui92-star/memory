@@ -28,3 +28,4 @@ _YouTube 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰
 - [2026-05-08] Designer와 Writer가 도출한 '시스템 오류 폭로' 서사에 기반하여, 쇼츠 영상의 최종 Hook, Flow, Call to Action(CTA) 지침을 실제 제작에 바로 사용할 수 있도록 구체적인 실행 가이드라인으로 최종 정리하라. → 산출물 sessions/2026-05-08T12-29/youtube.md
 - [2026-05-08] 데이터 파이프라인 안정화 결과를 바탕으로, 현재 진행 중인 유튜브 숏폼 영상 기획의 다음 단계(Hook, Flow, CTA)에 필요한 데이터 기반의 실행 가이드라인 초안을 작성하라. → 산출물 sessions/2026-05-08T13-14/youtube.md
 - [2026-05-08] 파일 '_agents/youtube/config.md'에 YOUTUBE_OAUTH_CLIENT_ID: <Google Cloud Console OAuth 2.0 Client ID> 와 YOUTUBE_OAUTH_CLIENT_SECRET: <Client Secret> 를 추가하고, Authorized redirect URI에 http://127.0.0.1:5814/yt-oauth-callback 을 등록하는 작업을 수행하라. → 산출물 sessions/2026-05-08T13-22/youtube.md
+- [2026-05-12] 수익화를 극대화하기 위해 현재 채널의 콘텐츠 포맷(숏폼 중심)을 어떻게 변경하거나 확장해야 수익 창출 잠재력이 가장 높은지 데이터 기반으로 제안하라. → 산출물 sessions/2026-05-12T13-22/youtube.md
