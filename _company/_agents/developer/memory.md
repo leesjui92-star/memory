@@ -17,3 +17,4 @@ _Developer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-05-08] Writer가 제공할 스크립트를 기다리면서, 현재 정의된 편집 및 사운드 이펙트 연출 로직에 대한 Python 코드 구현을 선행하여 작업 대기 시간을 최소화하라. → 산출물 sessions/2026-05-08T12-59/developer.md
 - [2026-05-08] Knowledge Ingestion Gateway API의 인증 설정 문제를 최종 해결하고, LLM 호출 실패에 대비한 Retry 메커니즘이 모든 데이터 파이프라인에서 완벽하게 작동하도록 테스트 및 안정화하라. → 산출물 sessions/2026-05-08T13-14/developer.md
 - [2026-05-12] [A.U 히든 커맨드: 💻 코다리 에이전트가 방금 '네온서바이버 샘플팩 (PayPal 통합)' 템플릿 팩 주입받았습니다. 코드 boilerplate 1개 파일 + README. 매트릭스 톤으로 한 줄. "💻 코다리, 네온서바이버 샘플팩 (PayPal 통합) 템플릿 1개 파일 장착. 다음 작업에 자동 활용." 부가 설명 X.] → 산출물 sessions/2026-05-12T12-55/developer.md
+- [2026-05-12] [A.U 히든 커맨드: 💻 코다리 에이전트가 방금 'Landing Kit (SaaS 랜딩 페이지)' 템플릿 팩 주입받았습니다. 코드 boilerplate 3개 파일 + README. 매트릭스 톤으로 한 줄. "💻 코다리, Landing Kit (SaaS 랜딩 페이지) 템플릿 3개 파일 장착. 다음 작업에 자동 활용." 부가 설명 X.] → 산출물 sessions/2026-05-12T12-56/developer.md
