@@ -30,3 +30,4 @@ _YouTube 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰
 - [2026-05-08] 파일 '_agents/youtube/config.md'에 YOUTUBE_OAUTH_CLIENT_ID: <Google Cloud Console OAuth 2.0 Client ID> 와 YOUTUBE_OAUTH_CLIENT_SECRET: <Client Secret> 를 추가하고, Authorized redirect URI에 http://127.0.0.1:5814/yt-oauth-callback 을 등록하는 작업을 수행하라. → 산출물 sessions/2026-05-08T13-22/youtube.md
 - [2026-05-12] 수익화를 극대화하기 위해 현재 채널의 콘텐츠 포맷(숏폼 중심)을 어떻게 변경하거나 확장해야 수익 창출 잠재력이 가장 높은지 데이터 기반으로 제안하라. → 산출물 sessions/2026-05-12T13-22/youtube.md
 - [2026-05-12] 기존 채널 'JRock'의 현재 시청자층, 콘텐츠 포맷(시스템 오류 서사)과의 연관성 및 음악 채널로 전환 시 잠재적인 트렌드와 성장 가능성을 분석하고 리포트 초안을 작성하라. → 산출물 sessions/2026-05-12T13-28/youtube.md
+- [2026-05-12] 현재 채널의 콘텐츠 포맷(숏폼 중심, 시스템 오류 서사)과 잠재적인 수익화 모델(디지털 상품) 간의 연관성을 데이터 기반으로 분석하여, 가장 높은 전환율을 보일 수 있는 콘텐츠 확장 방향을 제안하라. → 산출물 sessions/2026-05-12T13-47/youtube.md
