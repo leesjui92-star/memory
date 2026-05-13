@@ -66,3 +66,4 @@ _Writer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰�
 - [2026-05-13] Designer가 제시한 시각적 편집 타임라인과 감성선(Tone/Pacing)에 맞춰, 최종적인 'Director's Cue Sheet'를 작성하여 영상의 내레이션 타이밍과 감정선을 확정하라. → 산출물 sessions/2026-05-13T09-47/writer.md
 - [2026-05-13] 최종 확정된 'Anomaly Loop' 구조와 감정선 지침(Tone/Pacing)을 반영하여, 영상의 내레이션 스크립트 및 핵심 메시지를 최종적으로 작성하고 시각적 요소와의 동기화에 집중하라. → 산출물 sessions/2026-05-13T10-17/writer.md
 - [2026-05-13] 확정된 Production Cue Sheet(`Anomaly Loop - Final Production Cue Sheet`)에 맞춰 영상의 감정선과 기술적 실패 모드를 완벽히 반영한 최종 스크립트 및 내레이션 초안을 작성하고, 이를 Designer에게 전달할 준비를 하라. → 산출물 sessions/2026-05-13T10-32/writer.md
+- [2026-05-13] 시스템 실패 모드(`Failure Modes`)와 비주얼 트리거 간의 연결 관계를 명확히 하여, 이를 기반으로 감성적 서사('지적인 불안감')가 시각 요소에 완벽히 동기화되도록 최종 스크립트 흐름을 점검하고 수정하라. → 산출물 sessions/2026-05-13T11-17/writer.md
