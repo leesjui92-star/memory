@@ -67,6 +67,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-08T12-29/_report.md\n- 레오: Designer와 Writer가 도출한 '시스템 오류 폭로' 서사에 기반하여, 쇼츠 영상의 최종 Hook, Flow, Call to Action\n- Writer: youtube 에이전트가 확정한 Hook, Flow, CTA 지침을 바탕으로, 시스템 오류를 주제로 하는 몰입도 높은 영상 스크립트 초안(후크 \n- Designer: Writer가 작성할 최종 기획안의 흐름(Flow)과 CTA에 필요한 핵심 시각적 요소 및 불안감을 극대화하는 비주얼 시스템 에셋 목록을 검토하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Designer와 Writer가 도출한 '시스템 오류 폭로' 서사에 기반하여, 쇼츠 영상의 최종 Hook, Flow, Call to Action(CTA) 지침을 실제 제작에 바로 사용할 수 있도록 구체적인 실행 가이드라인으로 최종 정리하라",
       "completedAt": "2026-05-08T12:31:22.274Z"
+    },
+    {
+      "id": "20260513034908-4vnh",
+      "title": "모든 텍스트는 고대비(High Contrast)를 만족하는가? (Black/Cyan/White 조합 확인)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-13T03:49:08.121Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T03-47",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T03-47/_report.md\n- 현빈: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠\n- Researcher: 경쟁사 데이터 분석(이전 작업에서 준비된 자료) 및 Writer의 카피 성공률 데이터를 통합하여, 'Anomaly 진단' 패키지의 시장 ROI \n- Designer: Writer가 제작한 고효율 카피(헤드라인/설명란)를 기반으로, 'Anomaly Loop' 프레임워크에 맞는 최종 비주얼 브리프를 즉시 디자인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠재된 수익화 갭을 구체적으로 도출하라.\n> 🔧 **도구 실행**: _(없",
+      "completedAt": "2026-05-13T03:49:21.480Z"
+    },
+    {
+      "id": "20260513034908-tzf2",
+      "title": "영상 내 모든 시각 요소에 '글리치' 또는 '노이즈' 효과가 적용되었는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-13T03:49:08.127Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T03-47",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T03-47/_report.md\n- 현빈: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠\n- Researcher: 경쟁사 데이터 분석(이전 작업에서 준비된 자료) 및 Writer의 카피 성공률 데이터를 통합하여, 'Anomaly 진단' 패키지의 시장 ROI \n- Designer: Writer가 제작한 고효율 카피(헤드라인/설명란)를 기반으로, 'Anomaly Loop' 프레임워크에 맞는 최종 비주얼 브리프를 즉시 디자인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠재된 수익화 갭을 구체적으로 도출하라.\n> 🔧 **도구 실행**: _(없",
+      "completedAt": "2026-05-13T03:49:21.485Z"
+    },
+    {
+      "id": "20260513034908-3pr3",
+      "title": "타이포그래피는 불안감과 긴장감을 동시에 전달하는 산세리프체인가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-13T03:49:08.132Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T03-47",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T03-47/_report.md\n- 현빈: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠\n- Researcher: 경쟁사 데이터 분석(이전 작업에서 준비된 자료) 및 Writer의 카피 성공률 데이터를 통합하여, 'Anomaly 진단' 패키지의 시장 ROI \n- Designer: Writer가 제작한 고효율 카피(헤드라인/설명란)를 기반으로, 'Anomaly Loop' 프레임워크에 맞는 최종 비주얼 브리프를 즉시 디자인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠재된 수익화 갭을 구체적으로 도출하라.\n> 🔧 **도구 실행**: _(없",
+      "completedAt": "2026-05-13T03:49:21.490Z"
+    },
+    {
+      "id": "20260513034908-hl9s",
+      "title": "인트로/아웃트로 및 썸네일은 위 지침을 재사용 가능한 템플릿으로 구축할 수 있는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-13T03:49:08.136Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T03-47",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T03-47/_report.md\n- 현빈: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠\n- Researcher: 경쟁사 데이터 분석(이전 작업에서 준비된 자료) 및 Writer의 카피 성공률 데이터를 통합하여, 'Anomaly 진단' 패키지의 시장 ROI \n- Designer: Writer가 제작한 고효율 카피(헤드라인/설명란)를 기반으로, 'Anomaly Loop' 프레임워크에 맞는 최종 비주얼 브리프를 즉시 디자인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠재된 수익화 갭을 구체적으로 도출하라.\n> 🔧 **도구 실행**: _(없",
+      "completedAt": "2026-05-13T03:49:21.494Z"
     }
   ]
 }
