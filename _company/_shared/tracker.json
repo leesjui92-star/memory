@@ -288,6 +288,159 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
       "completedAt": "2026-05-13T14:06:17.032Z"
+    },
+    {
+      "id": "20260513150415-g9yz",
+      "title": "**A-Sync Protocol 검증:** 모든 BGM 변화점(특히 3초, 20초 지점)에서 사운드 효과(SFX)가 시간 코드와 완벽히 일치하는지 확인한다.",
+      "description": "자동 등록 (루나 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "editor"
+      ],
+      "createdAt": "2026-05-13T15:04:15.557Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.086Z"
+    },
+    {
+      "id": "20260513150415-ieon",
+      "title": "**공간감 확보 (Sound Field):** 저음역대 Drone Sound는 항상 배경 전체를 감싸는 듯한 느낌을 주는지 EQ/Compression으로 최종 점검한다.",
+      "description": "자동 등록 (루나 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "editor"
+      ],
+      "createdAt": "2026-05-13T15:04:15.564Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.091Z"
+    },
+    {
+      "id": "20260513150415-imt0",
+      "title": "**클라이맥스 임팩트 검증:** `Sub-Bass Boom`의 물리적 진동감이 청취자에게 전달되는지(헤드폰 테스트) 확인하고, 트랙 전후로 사운드 리버브를 적절히 적용하여 웅장함을 극대화한다.",
+      "description": "자동 등록 (루나 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "editor"
+      ],
+      "createdAt": "2026-05-13T15:04:15.571Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.096Z"
+    },
+    {
+      "id": "20260513150415-ttnm",
+      "title": "**라우드니스 표준 준수:** 전체 영상의 평균 라우드니스가 유튜브 권장치(-12 LUFS 내외)에 맞는지 최종 마스터링을 수행한다.",
+      "description": "자동 등록 (루나 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "editor"
+      ],
+      "createdAt": "2026-05-13T15:04:15.576Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.100Z"
+    },
+    {
+      "id": "20260513150434-ugaz",
+      "title": "**Hook (0-3초):** 첫 화면에서 시청자의 '개인적 불안감'을 건드리는 문구(\"당신은 모르는\", \"대부분이 놓치는\")가 가장 크고, 빨간색 경고문 스타일로 즉시 눈에 띄는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T15:04:34.990Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.105Z"
+    },
+    {
+      "id": "20260513150434-efe8",
+      "title": "**Pacing:** 도입부와 문제 제기(0-15초)에서 장면 전환 속도가 평균 2~3초를 넘지 않는가? (정보 과부하 유도).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T15:04:34.995Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.109Z"
+    },
+    {
+      "id": "20260513150434-0gk3",
+      "title": "**Audio Consistency:** 배경 사운드가 지루하게 흐르거나, 내레이션과 충돌하지 않고 지속적으로 긴장감을 유지하는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T15:04:34.999Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.114Z"
+    },
+    {
+      "id": "20260513150435-i9mj",
+      "title": "**Anomaly Highlight:** '오류 폭로' 구간(15-35초)에서 핵심 키워드에만 강조 효과(Zoom-in, Shake)를 적용하여 시청자가 \"여기가 가장 중요하네\"라고 느끼게 하는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T15:04:35.004Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.118Z"
+    },
+    {
+      "id": "20260513150435-km1q",
+      "title": "**CTA Transition:** 클라이맥스 직후 CTA 제시(\"전문 보고서가 필요합니다\")로의 전환이 자연스러운 '해결책' 흐름처럼 느껴지는가? (감정적 궤적 유지).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T15:04:35.008Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T15-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
+      "completedAt": "2026-05-13T15:05:37.122Z"
     }
   ]
 }
