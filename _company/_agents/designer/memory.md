@@ -94,3 +94,5 @@ _Designer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-05-13] 최종 비주얼 시스템 블루프린트(`Final Visual System Blueprint`)를 기반으로, 'Neon Cyan'과 'Glitch' 효과가 적용된 핵심 시각 에셋(오류 그래픽, 노드 다이어그램 등) 제작을 즉시 착수하고 편집 타임라인에 배치 지침을 확정하라. → 산출물 sessions/2026-05-13T10-47/designer.md
 - [2026-05-13] 확정된 비주얼 시스템 블루프린트(`Final Visual System Blueprint`)와 영상 편집 타임라인 가이드라인에 맞춰, 'Neon Cyan'과 'Glitch' 효과가 적용된 핵심 시각 에셋(오류 그래픽, 노드 다이어그램 등) 제작을 즉시 착수하고 편집 타임라인에 배치 지침을 확정하라. → 산출물 sessions/2026-05-13T11-02/designer.md
 - [2026-05-13] 개발팀이 제공한 시스템 테스트 결과(성공/실패 로그)와 시각적 요구사항(`Neon Cyan`, `Glitch`)을 바탕으로, 'Final Visual System Blueprint'의 애니메이션 및 배치 지침을 최종적으로 조정하고 핵심 시각 에셋 제작을 마무리하라. → 산출물 sessions/2026-05-13T11-17/designer.md
+- [2026-05-13] SPSCS(Anomaly Loop 통합 프로덕션 큐 시트)에 명시된 Timecode별 비주얼 에셋 사양서(`Asset Spec Sheet`)를 기반으로, 핵심 시스템 오류 그래픽 및 썸네일 레이아웃 제작을 즉시 착수하고 편집 타임라인에 배치 지침을 확정하라. → 산출물 sessions/2026-05-13T11-32/designer.md
+- [2026-05-13] 컨셉 A(`The Glitch Core`)를 최종 채택하고, Writer의 스크립트 초안에 맞춰 영상 전체의 비주얼 타임라인 및 편집 지침을 완성하라. → 산출물 sessions/2026-05-13T11-47/designer.md
