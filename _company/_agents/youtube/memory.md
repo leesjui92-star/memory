@@ -44,3 +44,5 @@ _YouTube 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰
 - [2026-05-13] Writer가 제공한 최종 스크립트와 'Anomaly Loop' 지침을 기반으로, 영상 제작에 필요한 모든 세부적인 시맨틱 체크포인트(Semantic Checkpoints)를 최종 확정하고 다음 단계로 넘길 준비를 하라. → 산출물 sessions/2026-05-13T05-17/youtube.md
 - [2026-05-13] Writer와 Designer가 확정한 'Anomaly Loop' 기반의 콘텐츠 구조에 맞춰, 코다리가 정의한 기술적 임계값(Thresholds)과 현빈이 제시한 마케팅 스토리텔링을 통합하여 최종 영상 제작을 위한 시맨틱 체크포인트 목록을 작성하라. → 산출물 sessions/2026-05-13T06-02/youtube.md
 - [2026-05-13] 코다리, 현빈, 레오가 정의한 'Anomaly Loop' 및 SIT 프레임워크를 기반으로 다음 숏폼 영상 제작에 필요한 최종 시맨틱 체크포인트 목록(Semantic Checkpoints)을 확정하고 이를 바탕으로 영상 기획을 시작할 준비를 하라. → 산출물 sessions/2026-05-13T07-02/youtube.md
+- [2026-05-13] 유튜브는 개발팀과 디자인팀이 확정한 최종 시맨틱 체크포인트와 시각적 요구사항을 바탕으로, 다음 숏폼 영상의 구체적인 기획 및 제작 로드맵(Anomaly Loop)을 수립하라. → 산출물 sessions/2026-05-13T08-17/youtube.md
+- [2026-05-13] Writer와 Designer가 확정한 'Anomaly Loop' 기반의 최종 시맨틱 체크포인트와 시각적 요구사항을 바탕으로, 다음 숏폼 영상의 구체적인 기획 및 제작 로드맵(Anomaly Loop)을 최종 검토하고 실행 계획을 수립하라. → 산출물 sessions/2026-05-13T10-17/youtube.md

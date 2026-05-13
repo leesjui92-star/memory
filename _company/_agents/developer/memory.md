@@ -50,3 +50,11 @@ _Developer 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 �
 - [2026-05-13] Writer/Designer가 확정한 'Anomaly Loop' 지침 및 Thresholds를 바탕으로, 실제 비주얼 에셋 데이터가 `sync_validator.py` 로직과 정확히 연동되는지 검증 준비를 완료하라. → 산출물 sessions/2026-05-13T06-32/developer.md
 - [2026-05-13] 생성된 'synced_master_payload.json'의 데이터 흐름 유효성 검증 로직(`sync_validator.py`) 통합 준비를 완료하고, 다음 단계인 '실제 시스템 통합 테스트 (SIT)' 환경 구축을 위한 API 연동 지점을 최종 확정하여 제공하라. → 산출물 sessions/2026-05-13T06-47/developer.md
 - [2026-05-13] 현빈과 코다리가 정의한 기술적 임계값(Thresholds)과 실패 모드(Failure Modes)를 반영하여, 영상 제작 과정에서 실시간으로 검증할 수 있는 API 연동 지점 및 실패 처리 로직의 최종 통합 기준을 확정하라. → 산출물 sessions/2026-05-13T07-02/developer.md
+- [2026-05-13] 현빈과 코다리가 정의한 'Anomaly Loop' 기반의 기술적 임계값(Thresholds) 및 실패 모드(Failure Modes)를 바탕으로, 실제 영상 제작 과정에서 검증할 수 있는 API 연동 지점 및 실패 처리 로직의 최종 통합 기준을 확정하고 시스템 테스트 환경 구축 준비를 완료하라. → 산출물 sessions/2026-05-13T07-17/developer.md
+- [2026-05-13] Writer와 현빈이 정의한 'Anomaly Loop' 기반의 기술적 임계값(Thresholds) 및 실패 모드(Failure Modes)를 바탕으로, 실제 영상 제작 과정에서 검증할 수 있는 API 연동 지점 및 실패 처리 로직의 최종 통합 기준(SIT 프레임워크)을 확정하고 시스템 테스트 환경 구축 준비를 완료하라. → 산출물 sessions/2026-05-13T07-47/developer.md
+- [2026-05-13] 코다리는 'Anomaly Loop' 및 SIT 프레임워크에 따라, `sync_validator.py`에 정의된 실패 페이로드(Failure Modes)를 적용하여 자동화된 시스템 테스트 실행을 즉시 시작하고 결과를 보고하라. → 산출물 sessions/2026-05-13T08-02/developer.md
+- [2026-05-13] 코다리는 SIT 프레임워크와 실패 모드(Failure Modes)를 기반으로, 다음 영상 제작에 필요한 자동 보정 로직(450ms 문제 해결)의 최종 통합 기준을 확정하고 시스템 테스트 환경 구축 준비를 완료하라. → 산출물 sessions/2026-05-13T08-17/developer.md
+- [2026-05-13] Writer가 작성할 영상 블루프린트에 따라, 시스템 실패 모드 발생 시 실제 API 연동 지점(`sync_validator.py`)의 테스트 결과를 검증하고 SIT 프레임워크를 최종 반영하라. → 산출물 sessions/2026-05-13T08-32/developer.md
+- [2026-05-13] Writer가 작성한 영상 블루프린트에 따라, 시스템 실패 모드 발생 시 실제 API 연동 지점(`sync_validator.py`)의 테스트 결과를 검증하고 SIT 프레임워크를 최종 반영하여 자동 보정 로직에 대한 통합 테스트를 즉시 실행하라. → 산출물 sessions/2026-05-13T08-47/developer.md
+- [2026-05-13] pytest 실행 결과(실패 로그)를 분석하여 `sync_validator.py`의 실패 원인과 시스템 실패 모드(Failure Modes)를 SIT 프레임워크에 기반하여 구체적인 진단 보고서 형태로 정리하라. → 산출물 sessions/2026-05-13T09-02/developer.md
+- [2026-05-13] Designer가 제시한 비주얼 시스템 블루프린트와 최종 영상 타임라인 가이드라인에 맞춰, 핵심 시각 에셋 제작에 필요한 애니메이션 시퀀스 및 코딩/API 연동 지점 테스트를 위한 초기 환경 설정을 준비하라. → 산출물 sessions/2026-05-13T10-47/developer.md
