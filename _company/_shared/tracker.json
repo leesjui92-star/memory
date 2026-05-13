@@ -135,6 +135,159 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-13T03-47/_report.md\n- 현빈: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠\n- Researcher: 경쟁사 데이터 분석(이전 작업에서 준비된 자료) 및 Writer의 카피 성공률 데이터를 통합하여, 'Anomaly 진단' 패키지의 시장 ROI \n- Designer: Writer가 제작한 고효율 카피(헤드라인/설명란)를 기반으로, 'Anomaly Loop' 프레임워크에 맞는 최종 비주얼 브리프를 즉시 디자인 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer가 제공한 카피 성공률 데이터와 경쟁사 분석 결과를 기반으로 'Anomaly 진단' 패키지의 시장 ROI 비교 보고서를 작성하고, 잠재된 수익화 갭을 구체적으로 도출하라.\n> 🔧 **도구 실행**: _(없",
       "completedAt": "2026-05-13T03:49:21.494Z"
+    },
+    {
+      "id": "20260513140516-e3tx",
+      "title": "사운드 동기화: 도입부 3초 내에 배경음악의 볼륨 변화와 충격 SFX가 완벽하게 일치하는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:05:16.326Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:16.997Z"
+    },
+    {
+      "id": "20260513140516-upzs",
+      "title": "시각적 자극: 첫 프레임에서 빨간색/Cyan 경고 코드가 너무 빠르게 지나가지 않고, 시청자가 '멈춰서 읽을 만한' 충분한 시간을 제공하는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:05:16.331Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.002Z"
+    },
+    {
+      "id": "20260513140516-v0hp",
+      "title": "내러티브 질문: 3초 시점에 던지는 질문이 '개인의 불안감(나에게 무슨 문제가 있을까?)'에 직접적으로 호소하는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:05:16.335Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.006Z"
+    },
+    {
+      "id": "20260513140516-72wi",
+      "title": "논리적 연결고리: 클라이맥스([16-30초])에서 느낀 불안감과, 해결책(Report)의 필요성이 끊어짐 없이 매끄럽게 이어지는가? (단순히 상품을 보여주는 것이 아님).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:05:16.340Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.011Z"
+    },
+    {
+      "id": "20260513140516-ntl7",
+      "title": "시각적 강조: 보고서 Mockup이 등장할 때, '권위'와 '전문성'이 느껴지도록 비주얼 디자인 요소(예: 데이터 그래프의 복잡도)를 최대치로 끌어올렸는가?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:05:16.345Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.015Z"
+    },
+    {
+      "id": "20260513140607-gys7",
+      "title": "**SEO 메타데이터:** 제목/설명란에 핵심 키워드(하이브리드, 경고 신호, 시스템 오류, 자가진단)를 자연스럽게 반복 배치했는가? [근거: 레오 개인 메모리]",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:06:07.492Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.019Z"
+    },
+    {
+      "id": "20260513140607-xvhr",
+      "title": "**Description (상위 3줄):** 영상의 핵심 질문과 해결책(Diagnostic Report 필요성) 요약문이 포함되어 검색 유입을 최적화했는가? [근거: 레오 개인 메모리]",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:06:07.498Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.024Z"
+    },
+    {
+      "id": "20260513140607-7bx5",
+      "title": "**0~3초 Hook:** 첫 문장에서 시청자의 *개인적인 불안감*(\"당신도 모르는\", \"혹시...\")을 건드리고, 빠른 컷 전환과 경고 사운드를 사용했는가? [근거: 레오 개인 메모리]",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:06:07.503Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.028Z"
+    },
+    {
+      "id": "20260513140607-iavi",
+      "title": "**CTA 명확성:** '진단 보고서'를 구매해야 하는 이유(불완전한 자가 진단의 한계)가 구조적으로 충분히 설득되었는가? [근거: Self-RAG 메모리 - 최종 CTA]",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-05-13T14:06:07.511Z",
+      "status": "done",
+      "sessionDir": "2026-05-13T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-13T14-01/_report.md\n- Writer: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를\n- Designer: Writer가 작성할 최종 스크립트를 기반으로, '데이터 누출 시각화'를 중심으로 한 고해상도 프로토타입 비주얼 에셋 세트(Glitch UI v\n- 레오: Writer가 확정한 스토리와 Designer가 만든 비주얼 에셋 세트를 결합하여, 최종 숏폼 영상의 '프로덕션 및 배포 마스터 플랜'을 수립하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 확정된 'Anomaly Loop' 테마와 KPI(Standard 보고서 클릭 유도)를 최우선으로 고려하여, 숏폼 영상의 최종 내러티브 스크립트를 완성하십시오. 이 스크립트는 단순히 정보를 전달하는 것을 넘어, 시청자의 지적 불안감을 최고조로",
+      "completedAt": "2026-05-13T14:06:17.032Z"
     }
   ]
 }
