@@ -1,0 +1,116 @@
+# 📈 E2E 수익화 통합 테스트베드 (Test Environment)
+
+## 📁 1. 핵심 컴포넌트 폴더
+### `simulator/`
+*   **역할:** 콘텐츠 데이터(스크립트, 시간 코드, 에셋 ID)를 입력받아 상태 변화에 따라 시스템 결함을 시뮬레이션하는 코어 로직을 담습니다.
+*   **핵심 파일:** `state_machine_validator.py` (상태 전이 및 유효성 검증 담당)
+
+### `data/`
+*   **역할:** 테스트 입력 데이터(JSON/YAML)를 저장합니다. 실제 영상 제작에 사용될 최종 스토리보드 페이로드와, 의도적으로 결함을 삽입한 시나리오별 가상 데이터를 보관합니다.
+*   **예시 파일:** `test_payloads/success_flow.json`, `test_payloads/error_403_trigger.json`
+
+### `specs/`
+*   **역할:** 시스템의 계약(Contract)이 되는 모든 스펙 문서를 보관합니다. (Designer가 작성한 Tech Spec 등).
+
+## 📄 2. 핵심 파일: 테스트 시나리오 및 인터페이스 정의
+
+### A. `testbed_simulator/state_machine_validator.py`
+상태 기계의 흐름을 관리하고, 데이터 유효성을 검증하는 코어 로직입니다. 이 클래스가 시스템의 '뇌' 역할을 합니다.
+
+<create_file path="c:\Users\leesj\connect-ai-projects\_company\_agents\developer\testbeds\monetization_testbed\simulator\state_machine_validator.py">
+import json
+from typing import Dict, Any
+
+class StateMachineValidator:
+    """
+    E2E 자동 수익화 프로토타입의 상태 기계 시뮬레이터 및 유효성 검사기.
+    데이터가 정의된 순서대로 흐르며, 각 단계별 시스템 결함(Error Code) 발생 여부를 진단합니다.
+    """
+
+    def __init__(self, storyboard_data: Dict[str, Any]):
+        # 입력 데이터는 통합 스케줄에서 받은 표준 페이로드 구조여야 함
+        if not storyboard_data or 'scenes' not in storyboard_data:
+            raise ValueError("Invalid Storyboard Payload: Must contain 'scenes' list.")
+        self.storyboard = storyboard_data
+        print("[✅ Validator] State Machine Initialized.")
+
+    def validate(self) -> Dict[str, Any]:
+        """전체 스토리보드를 순회하며 각 Scene의 유효성을 검증합니다."""
+        validation_report = {
+            "status": "PASS",
+            "warnings": [],
+            "errors": []
+        }
+
+        for i, scene in enumerate(self.storyboard['scenes']):
+            scene_id = f"Scene_{i+1}"
+            print(f"\n--- [진단 시작] {scene_id}: '{scene.get('title', '제목 없음')}' ---")
+
+            # 1. 필수 필드 검증 (데이터 누락 체크)
+            if not scene.get('time_code'):
+                validation_report['errors'].append({"id": scene_id, "type": "TIME_MISSING", "message": "필수 시간 코드가 누락됨."})
+                continue
+
+            # 2. 비주얼/오디오 싱크 검증 (시간 간격 및 동기화)
+            if i > 0:
+                prev_scene = self.storyboard['scenes'][i-1]
+                time_gap = float(scene['time_code']['end']) - float(prev_scene['time_code']['start'])
+                if time_gap < 0.5: # 최소 전환 시간 (Transition Gap) 강제화
+                    validation_report['warnings'].append({"id": scene_id, "type": "SYNC_CRITICAL", "message": f"Scene 간 전환 시간이 {time_gap:.2f}s로 너무 짧음. 0.5초 이상 확보 권장."})
+
+            # 3. 클라이맥스/CTA 로직 검증 (핵심 비즈니스 로직)
+            if scene.get('trigger') == 'CLIMAX' and 'cta_module' not in scene:
+                validation_report['errors'].append({"id": scene_id, "type": "FLOW_BREAK", "message": "클라이맥스 지점에서 CTA 모듈 데이터가 연결되지 않았습니다."})
+
+            # 4. 시스템 오류 코드(State-ID) 연동 검증 (핵심 목표)
+            if 'system_state' in scene:
+                state = scene['system_state']
+                if state == "FAILURE" and state.get("error_code") == "STATE-ID 403":
+                    print(f"🚨 [경고] {scene_id}: 시스템 오류 ({state['error_code']}) 감지! CTA 모듈이 발동해야 합니다.")
+                    # 성공적인 흐름을 위해 다음 단계의 CTA 유도 로직이 필수적임을 기록
+                    validation_report['status'] = "TRIGGERED" 
+                elif state.get("error_code") is None:
+                     print(f"⚠️ [경고] {scene_id}: 시스템 상태가 명시되지 않았거나 오류 코드가 없습니다.")
+
+        # 최종 리포트 확정
+        if validation_report['errors']:
+            validation_report['status'] = "FAIL - CRITICAL ERROR DETECTED"
+        elif validation_report['warnings'] and validation_report['status'] != "TRIGGERED":
+             validation_report['status'] = "WARN - IMPROVEMENT NEEDED"
+
+        return validation_report
+
+
+if __name__ == "__main__":
+    # 테스트용 더미 데이터 로드 (실제로는 data/ 에서 로드)
+    print("=========================================================")
+    print("     ▶️ State Machine Validator Test Run Start")
+    print("=========================================================")
+
+    # 🚨 테스트 시나리오: 오류 발생 및 CTA 유도 흐름 검증
+    test_payload = {
+        "title": "테스트 스토리보드",
+        "scenes": [
+            {"scene_id": "S1", "time_code": {"start": 0.0, "end": 3.0}, "content": "도입부 정보 나열"},
+            # 이 지점에서 시스템 오류가 발생하는 시나리오를 가정합니다. (T+02:10 근처)
+            {"scene_id": "S2", "time_code": {"start": 3.0, "end": 8.0}, 
+             "content": "문제 제기 및 데이터 드리프트 시작", 
+             "system_state": {"status": "FAILURE", "error_code": "STATE-ID 403"}, # <-- 핵심 트리거!
+             "cta_module": {"active": True, "text": "지금 대비책을 구매하세요."},
+            {"scene_id": "S3", "time_code": {"start": 8.5, "end": 12.0}, "content": "해결책 제시 및 결론"} # S2와 간격이 짧음 (0.5s)
+        ]
+    }
+
+    try:
+        validator = StateMachineValidator(test_payload)
+        report = validator.validate()
+        print("\n=========================================================")
+        print("          ✅ 통합 검증 보고서 (Validation Report)")
+        print("=========================================================")
+        print(json.dumps(report, indent=4))
+
+    except ValueError as e:
+        print(f"\n❌ [FATAL] Validator 초기화 실패: {e}")
+
+# 사용법: python state_machine_validator.py 
+# 이 스크립트는 통합된 스토리보드 페이로드를 받아 각 Scene의 유효성을 진단합니다.

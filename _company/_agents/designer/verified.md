@@ -49,3 +49,18 @@ _사용자가 직접 줄을 지우면 그 주장은 다시 미검증 상태로 �
 - [2026-05-15] 1. **글리치/노이즈 적용 규칙:** 모든 텍스트 및 중요한 시각적 정보는 `Orbitron` 또는 `Rajdhani` 계열의 고대비 산세리프체를 사용하며, 최소한 **3가지 이상의 Glitch 변형 효과 (Horizontal Shift, Chromatic Aberration, Scanline)**가 조합되어야 합니다. _(근거: Designer 검증된 지식)_
 - [2026-05-15] 2. **사운드 동기화:** 시퀀스 3에서 경고 메시지가 등장할 때마다, 사운드는 **Low Frequency Hum(지속적인 낮은 진동음)**과 함께 순간적으로 **`[BEEP-BOOP]` 같은 디지털 에러 사운드**를 삽입하여 청각적 긴장감을 극대화해야 합니다. _(근거: Writer 스크립트 모듈 1)_
 - [2026-05-15] 3. **State Change (상태 변화):** Scene 2에서 Scene 3으로 넘어갈 때, 시각 시스템이 **`STATUS_OK` $\rightarrow$ `STATUS_WARNING` $\rightarrow$ `STATUS_FAILURE`** 순서로 상태가 변하는 애니메이션을 반드시 삽입해야 합니다. 이 전환 과정 자체가 콘텐츠의 중요한 일부입니다. _(근거: Designer 개인 메모리 - Dashboard 브리프)_
+- [2026-05-15] /* */ _(근거: Designer 검증된 지식, Designer 개인 메모리)_
+- [2026-05-15] font-family: 'Orbitron', sans-serif; /* */ _(근거: Designer 검증된 지식)_
+- [2026-05-15] /* State 2: CRITICAL (Hook/Climax - ) */ _(근거: Writer Master Spec)_
+- [2026-05-15] font-family: 'Rajdhani', sans-serif; /* */ _(근거: Designer 검증된 지식)_
+- [2026-05-15] ### 1. 컨셉 및 목표 (Concept & Goal) _(근거: Designer 개인 메모리, CEO 지시)_
+- [2026-05-15] ### 2. 비주얼 시스템 스펙 (Visual System Spec) _(근거: Designer 검증된 지식)_
+- [2026-05-15] ### 3. 인터랙션 플로우 및 애니메이션 스펙 (Interaction Flow & Animation) _(근거: Designer 개인 메모리)_
+- [2026-05-15] * **폰트 시스템 (Typography):** `Orbitron` 또는 `Rajdhani` 계열의 고대비 산세리프. 모든 텍스트에 디지털 노이즈/글리치 필터가 기본 적용된다. _(근거: Designer 검증된 지식)_
+- [2026-05-15] 2. **성능 최우선:** Glitch 및 Flicker 효과가 과도하여 프레임 드롭이 발생하지 않도록 `transform` 속성과 하드웨어 가속(`will-change: transform`)을 우선적으로 사용한다. _(근거: Designer 개인 메모리)_
+- [2026-05-15] **** _(근거: Designer 개인 메모리, CEO 지시)_
+- [2026-05-15] **** _(근거: Designer 개인 메모리 - 시스템적 위험 자극)_
+- [2026-05-15] **** _(근거: 통합 스케줄 - 클라이맥스 지점 강조)_
+- [2026-05-15] | **기본 배경색** | Deep Black / Dark Gray | `background-color: #0A0A0A;` | | _(근거: Designer 검증된 지식)_
+- [2026-05-15] | **강조 색상 (Active)** | Neon Cyan | `color: #00FFFF; --cyan-glow: 0 0 10px #00FFFF, inset 0 0 5px rgba(0, 255, 255, 0.8);` | | _(근거: Designer 검증된 지식)_
+- [2026-05-15] | **폰트 계열** | 고대비 산세리프 (Orbitron/Rajdhani) | `font-family: 'Orbitron', sans-serif; font-size: clamp(1rem, 5vw, 2.5rem);` | | _(근거: Designer 검증된 지식)_
