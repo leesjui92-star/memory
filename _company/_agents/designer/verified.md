@@ -64,3 +64,24 @@ _사용자가 직접 줄을 지우면 그 주장은 다시 미검증 상태로 �
 - [2026-05-15] | **기본 배경색** | Deep Black / Dark Gray | `background-color: #0A0A0A;` | | _(근거: Designer 검증된 지식)_
 - [2026-05-15] | **강조 색상 (Active)** | Neon Cyan | `color: #00FFFF; --cyan-glow: 0 0 10px #00FFFF, inset 0 0 5px rgba(0, 255, 255, 0.8);` | | _(근거: Designer 검증된 지식)_
 - [2026-05-15] | **폰트 계열** | 고대비 산세리프 (Orbitron/Rajdhani) | `font-family: 'Orbitron', sans-serif; font-size: clamp(1rem, 5vw, 2.5rem);` | | _(근거: Designer 검증된 지식)_
+- [2026-05-15] | **Base Background** | `#0A0A0A` (Deep Black) | 모든 배경은 어둠을 유지하여 강조색의 대비를 극대화한다. | _(근거: Designer 검증된 지식)_
+- [2026-05-15] | **Default Font Family** | `Orbitron`, `Rajdhani` (High Contrast Sans-serif) | 글리치 효과를 위해 기하학적인 구조가 필수적이다. | _(근거: Designer 개인 메모리)_
+- [2026-05-15] | **Dismissed** | 경고 종료/다음 단계 진행 (`level=NONE`) | 오버레이의 불투명도가 선형적으로 떨어지면서(`opacity: 0;`), 화면이 원래의 Deep Black으로 복귀한다. | 750ms (Smooth Transition - ) | _(근거: 지난 의사결정 로그)_
+- [2026-05-15] | **기본 배경색** | Deep Black (최상시 안정화 기준) | `#0A0A0A` | | _(근거: Designer 검증된 지식)_
+- [2026-05-15] | **오류 강조색** | Neon Cyan (Glitch, Warning) | `#00FFFF` | | _(근거: Designer 검증된 지식)_
+- [2026-05-16] * **목표:** 시청자의 주의력(Attention Span)을 **0.5초 이내**에 붙잡고, '지금 뭔가 잘못되고 있다'는 지적인 불안감(Intellectual Unease)과 궁금증을 유발한다. _(근거: Designer 개인 메모리)_
+- [2026-05-16] | 항목 | 내용 | 상세 지침 | | _(근거: Designer 검증된 지식)_
+- [2026-05-16] | **주요 컬러 팔레트** | Deep Black (`#0A0A0A`) / Neon Cyan (`#00FFFF`) / Critical Red (`#FF0033`) | 배경은 절대적으로 어두운 딥 블랙을 유지한다. 경고는 빨강/Cyan의 고대비 충돌로 표현한다. | | _(근거: Designer 검증된 지식)_
+- [2026-05-16] | **타이포그래피** | `Orbitron` 또는 유사 기하학적 Sans-serif | 모든 텍스트에 글리치, 스캔라인(Scanline) 필터를 기본적으로 적용한다. | | _(근거: Designer 개인 메모리)_
+- [2026-05-16] * **비주얼:** 갑작스럽게, 화면의 네온 시안(`Cyan`) 지표들이 일제히 **글리치(Glitch)** 현상을 일으키며 노이즈와 함께 깜빡인다. _(근거: Designer 검증된 지식)_
+- [2026-05-16] * **톤앤매너:** 테크-느와르 / 지적인 불안감 (Intellectual Unease) . _(근거: Designer 개인 메모리)_
+- [2026-05-16] * **컬러 시스템:** Deep Black (`#0A0A0A`) 배경. Neon Cyan (`#00FFFF`)는 오직 '활성화'되는 정보(데이터, 오류, 경고문)에만 제한적으로 사용 . _(근거: Designer 검증된 지식)_
+- [2026-05-16] ### 1. 컬러 팔레트 (Color Palette) - _(근거: Designer 검증된 지식)_
+- [2026-05-16] ### 2. 타이포그래피 및 글리치 프로토콜 (Typography & Glitch Protocol) - _(근거: Designer 검증된 지식)_
+- [2026-05-16] ### 3. 아트 스타일 및 분위기 (Art Style & Mood) - _(근거: Designer 개인 메모리)_
+- [2026-05-16] 1. **(T+30s):** 화면 전체에 낮은 주파수의 **'데이터 스트림 불안정성(Data Stream Instability)'** 시각 효과를 점진적으로 오버레이한다. (Neon Cyan, 글리치 필터) _(근거: Luna 오디오 플랜)_
+- [2026-05-16] 1. **(T+35s):** 모든 배경 이미지와 UI 요소가 순간적으로 '디지털 노이즈'로 폭발하며 완전히 사라진다. (Hard Cut to Black) _(근거: Luna 오디오 플랜)_
+- [2026-05-16] 1. **[MODULE] System Alert (v4.2)**: `SYSTEM CRITICAL FAILURE` 텍스트 애니메이션 (점멸, 글리치 강도 극대화). _(근거: Luna 오디오 플랜)_
+- [2026-05-16] 4. **[TRANSITION] Hard Cut to Black / Glitch Burst**: 사운드 공백(Void) 직전에 사용되는 '정보 폭발 후 암전' 전환 효과를 마스터링 완료함. _(근거: Luna 오디오 플랜)_
+- [2026-05-16] 1. **글리치 효과 로직 (Glitch Protocol):** 글리치는 단순한 애니메이션이 아니라, **** 시스템 데이터 파라미터 초과 또는 외부 충격에 의한 '정보 손실'을 시각화하는 장치여야 한다. _(근거: Designer 개인 메모리)_
+- [2026-05-16] 이 Spec Sheet는 와 [근거: Designer 검증된 지식 - 테크-느와르 비주얼 시스템]을 종합하여 제작되었습니다. _(근거: Writer 산출물 - 스토리보드 아웃라인)_

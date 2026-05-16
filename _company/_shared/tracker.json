@@ -441,6 +441,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-13T15-01/_report.md\n- Writer: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조\n- Designer: Writer가 완성한 최종 스크립트와 '글리치 UI v2.0' 에셋 사양서를 기반으로, 9:16 비율의 유튜브 숏폼 '최종 스토리보드 모형(Mo\n- 레오: Writer와 Designer의 산출물을 검토하고, 최종 콘텐츠 배포를 위한 '최종 실행 로드맵'을 수립하십시오. 이 로드맵은 완성된 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Researcher가 확보한 '홍해 인근 보험료 7일간 $15\\% \\sim 20\\%$ 폭등' 데이터를 핵심 근거로 사용하여, '시스템 오류/구조적 위험 분석' 콘셉트에 맞는 유튜브 숏폼 스크립트를 작성하십시오. 이 스크립트는 초반 3초 내에",
       "completedAt": "2026-05-13T15:05:37.122Z"
+    },
+    {
+      "id": "20260516043057-y85s",
+      "title": "모든 애니메이션 전환 지점(Transition Point)에 사운드와 비주얼 간의 **시간 오차(Latency)**가 발생하지 않도록 0.1초 단위로 조정되었는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-16T04:30:57.925Z",
+      "status": "done",
+      "sessionDir": "2026-05-16T04-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-16T04-29/_report.md\n- 루나: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기\n- Designer: Editor가 제작한 1차 사운드 프로토타입의 시간 흐름에 완벽하게 동기화(Sync)되도록, 최종 애니메이션 에셋 모듈('SYSTEM INTEG\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기반으로, 1차 영상 프로토타입 오디오 트랙을 제작하십시오. BGM은 테크-느와",
+      "completedAt": "2026-05-16T04:31:28.330Z"
+    },
+    {
+      "id": "20260516043057-liax",
+      "title": "'정보 공백 유도' 단계에서 배경 노이즈(Noise Floor)를 유지하여 청각적 긴장감이 떨어지지 않는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-16T04:30:57.930Z",
+      "status": "done",
+      "sessionDir": "2026-05-16T04-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-16T04-29/_report.md\n- 루나: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기\n- Designer: Editor가 제작한 1차 사운드 프로토타입의 시간 흐름에 완벽하게 동기화(Sync)되도록, 최종 애니메이션 에셋 모듈('SYSTEM INTEG\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기반으로, 1차 영상 프로토타입 오디오 트랙을 제작하십시오. BGM은 테크-느와",
+      "completedAt": "2026-05-16T04:31:28.336Z"
+    },
+    {
+      "id": "20260516043057-97ts",
+      "title": "최종 CTA 모듈([Asset_C01])은 이전의 극도의 혼란스러움과 대비되어, **최대한 단순하고 명료하며 신뢰감을 주는 디자인**을 유지하는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-16T04:30:57.936Z",
+      "status": "done",
+      "sessionDir": "2026-05-16T04-29",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-16T04-29/_report.md\n- 루나: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기\n- Designer: Editor가 제작한 1차 사운드 프로토타입의 시간 흐름에 완벽하게 동기화(Sync)되도록, 최종 애니메이션 에셋 모듈('SYSTEM INTEG\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기반으로, 1차 영상 프로토타입 오디오 트랙을 제작하십시오. BGM은 테크-느와",
+      "completedAt": "2026-05-16T04:31:28.340Z"
     }
   ]
 }
