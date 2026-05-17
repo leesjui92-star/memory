@@ -98,3 +98,8 @@ _사용자가 직접 줄을 지우면 그 주장은 다시 미검증 상태로 �
 - [2026-05-17] | **1. Time-Series Anomaly Plot** | 시간 흐름에 따른 '정상 범위 이탈' 추적. (예: 물류 마비 지수) | X축: 시간(Time Code), Y축: 측정값(Index). 배경은 Grid Pattern. 정상 범위를 나타내는 투명한 Cyan 박스를 그리고, 데이터가 이 밖으로 벗어나는 부분에 **Critical Red** 점선을 사용한다. | 선 그래프 + 영역 하이라이트. (Deviation Zone 강조) | | _(근거: Researcher ① 핵심 사례)_
 - [2026-05-17] | **2. Protocol Flowchart** | 시스템 작동의 논리적 흐름 및 실패 지점 추적. (예: 자격증 제도 변화) | 왼쪽에서 오른쪽으로 진행하는 화살표 기반 플로우차트 구조. 각 단계(Node)는 모서리가 둥근 직사각형이며, 정상 경로는 Cyan 테두리로, **위험 경로**는 Red 테두리 + `[SYSTEM FAIL]` 배지 처리. | 순차적 블록 다이어그램 (Process Mapping). | | _(근거: Designer 개인 메모리 - Dashboard 브리프)_
 - [2026-05-17] | **3. Comparative Gap Matrix** | 현재 상태와 미래 예측 간의 '결함' 비교. (예: 역량 격차 통계) | 2xN 테이블 형태. 가로축은 핵심 요소(지식, 판단력, 시스템 등), 세로축은 [현재] vs [미래]. 차이점(Gap)이 있는 셀에 `[GAP DETECTED]`라는 Cyan/Red 배지를 강제 배치한다. | 비교표 + 강조형 뱃지. (명확한 대비 유도). | | _(근거: Writer Researcher 데이터 패키지)_
+- [2026-05-17] | 항목 | 변수명 (API Key) | 기본 값/값 범위 | 설명 | | _(근거: Designer 개인 메모리)_
+- [2026-05-17] | **배경** | `BG_COLOR` | `#0A0A0A` (Deep Black) | 모든 영상의 기본 배경색. 어둠과 깊이감을 유지한다. | | _(근거: Designer 검증된 지식)_
+- [2026-05-17] | **주 강조색** | `ACCENT_CYAN` | `#00FFFF` | 활성화, 데이터 스트림, 경고 메시지에만 사용 (Neon Cyan). | | _(근거: Designer 개인 메모리)_
+- [2026-05-17] | **타이포체** | `FONT_FAMILY` | `Orbitron, Rajdhani` (Fallback: sans-serif) | 고대비 산세리프체. 모든 텍스트는 노이즈 필터가 적용됨을 기본 가정한다. | | _(근거: Designer 검증된 지식)_
+- [2026-05-17] | **노이즈 효과** | `NOISE_FILTER` | `{enabled: true, type: 'Scanline', strength: 0.1}` | 모든 비주얼 요소에 미묘하게 적용되어 시스템적 분위기를 강화한다. | | _(근거: Designer 개인 메모리)_
