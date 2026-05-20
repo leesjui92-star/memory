@@ -492,6 +492,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-16T04-29/_report.md\n- 루나: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기\n- Designer: Editor가 제작한 1차 사운드 프로토타입의 시간 흐름에 완벽하게 동기화(Sync)되도록, 최종 애니메이션 에셋 모듈('SYSTEM INTEG\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: Writer와 Designer가 제공한 모든 시간 코드(Time Code) 및 사운드 디자인 계획(Luna의 Audio Sync Plan)을 기반으로, 1차 영상 프로토타입 오디오 트랙을 제작하십시오. BGM은 테크-느와",
       "completedAt": "2026-05-16T04:31:28.340Z"
+    },
+    {
+      "id": "20260517114616-bw7j",
+      "title": "**Time Code Lock:** 모든 애니메이션 시작점과 끝점은 `T+0:45`와 `T+1:00`을 기준으로 재확인되어야 한다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-17T11:46:16.677Z",
+      "status": "done",
+      "sessionDir": "2026-05-17T11-44",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-17T11-44/_report.md\n- 루나: 통합 동기화 체크리스트와 시간대별 로직(예: [0:30 - 0:45] 위기 고조)을 기준으로, 현재까지의 모든 스크립트/비주얼/오디오 요소를 기\n- Designer: Editor가 진행하는 목업 작업에 맞춰, 'PSI ALERT' 클라이맥스 구간([0:45 – 1:00])의 VFX 모듈(Error Flow D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: 통합 동기화 체크리스트와 시간대별 로직(예: [0:30 - 0:45] 위기 고조)을 기준으로, 현재까지의 모든 스크립트/비주얼/오디오 요소를 기반으로 '마스터 타임라인 목업 v1.0' 편집 작업을 주도적으로 수행하십시오.",
+      "completedAt": "2026-05-17T11:46:50.469Z"
+    },
+    {
+      "id": "20260517114616-7mx0",
+      "title": "**API Dependency:** 모든 컴포넌트는 외부 데이터(예: 그래프의 Y축 값) 변화에 따라 반응할 수 있는 변수 기반 로직으로 설계한다. (하드 코딩 금지).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-17T11:46:16.682Z",
+      "status": "done",
+      "sessionDir": "2026-05-17T11-44",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-17T11-44/_report.md\n- 루나: 통합 동기화 체크리스트와 시간대별 로직(예: [0:30 - 0:45] 위기 고조)을 기준으로, 현재까지의 모든 스크립트/비주얼/오디오 요소를 기\n- Designer: Editor가 진행하는 목업 작업에 맞춰, 'PSI ALERT' 클라이맥스 구간([0:45 – 1:00])의 VFX 모듈(Error Flow D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: 통합 동기화 체크리스트와 시간대별 로직(예: [0:30 - 0:45] 위기 고조)을 기준으로, 현재까지의 모든 스크립트/비주얼/오디오 요소를 기반으로 '마스터 타임라인 목업 v1.0' 편집 작업을 주도적으로 수행하십시오.",
+      "completedAt": "2026-05-17T11:46:50.474Z"
+    },
+    {
+      "id": "20260517114616-ggen",
+      "title": "**Sound Synchronization:** Phase II와 III의 시각적 충격 발생 타이밍은 Luna가 제공한 Master Timeline의 Amplitude Peak 지점과 100% 일치해야 한다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-17T11:46:16.687Z",
+      "status": "done",
+      "sessionDir": "2026-05-17T11-44",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-17T11-44/_report.md\n- 루나: 통합 동기화 체크리스트와 시간대별 로직(예: [0:30 - 0:45] 위기 고조)을 기준으로, 현재까지의 모든 스크립트/비주얼/오디오 요소를 기\n- Designer: Editor가 진행하는 목업 작업에 맞춰, 'PSI ALERT' 클라이맥스 구간([0:45 – 1:00])의 VFX 모듈(Error Flow D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎵 루나 _(Sound Director & Composer)_\n> 📋 **지시**: 통합 동기화 체크리스트와 시간대별 로직(예: [0:30 - 0:45] 위기 고조)을 기준으로, 현재까지의 모든 스크립트/비주얼/오디오 요소를 기반으로 '마스터 타임라인 목업 v1.0' 편집 작업을 주도적으로 수행하십시오.",
+      "completedAt": "2026-05-17T11:46:50.479Z"
     }
   ]
 }

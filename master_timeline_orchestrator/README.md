@@ -1,0 +1,1 @@
+# 🎬 Master Timeline Orchestrator (90s Prototype)\n\n이 프로젝트는 시간 코드(Time Code) 기반의 A/V 동기화 로직을 시뮬레이션합니다.\n\n## 목표\n- 모든 미디어 에셋 컴포넌트가 T+ms에 따라 정확히 활성화/비활성화되는지 검증하는 오케스트레이터 구현.\n- VFX Component Specification Sheet v4.0의 로직을 코드로 구현하고, 테스트 가능한 인터페이스 제공.\n\n## 사용법\n1. `python timeline_mockup.py --payload test_synced_payload.json`\n2. 결과 로그에서 예상치 못한 'Null' 값이나 시간 간격(Gap) 발생 지점을 확인하세요.\n
