@@ -662,6 +662,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-23T09-18/_report.md\n- 코다리: CEO가 지적한 S02_premise 섹션의 'Transition Buffer' 누락 문제를 해결하기 위한 시간 코드 재분배 및 수정 스크립트를\n- Designer: Developer가 수정 스크립트를 적용하는 데 필요한 A-002 자산에 대한 최종 Time Range 및 애니메이션 로직 메타데이터를 확정하여\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: CEO가 지적한 S02_premise 섹션의 'Transition Buffer' 누락 문제를 해결하기 위한 시간 코드 재분배 및 수정 스크립트를 즉시 개발하여 Designer와 공유하십시오. 또한, A-002 자산에 필요한 Time Code ",
       "completedAt": "2026-05-23T09:20:32.242Z"
+    },
+    {
+      "id": "20260524010536-iju1",
+      "title": "**View Duration Tracking:** 평균 시청 시간, 그리고 특히 **'2분~3분 구간에서의 이탈 지점(Drop-off Point)'**을 세그먼트별로 측정해야 함. (가설 검증의 핵심 시간대)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-24T01:05:36.999Z",
+      "status": "done",
+      "sessionDir": "2026-05-24T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T01-03/_report.md\n- Researcher: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. \n- Writer: 연구자료를 바탕으로 가장 강력하게 공포와 궁금증을 자극할 수 있는 최종 CTA 문구 5개 세트를 작성하십시오. 이 카피는 시청자가 댓글로 자신의\n- 현빈: 최종 콘텐츠 배포 단계에 맞춰 A/B 테스트 KPI 측정 구조를 확정하십시오. 제목, 썸네일 컨셉(비주얼), CTA 문구 세 가지 변수 조합별로\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. 이 데이터를 바탕으로 현재의 쇼츠 스크립트가 다루는 주제에 긴급성을",
+      "completedAt": "2026-05-24T01:06:25.279Z"
+    },
+    {
+      "id": "20260524010537-omey",
+      "title": "**Replay/Loop Rate Pixel:** 영상 종료 후 재시청 여부 및 스크롤링 행동 추적. (KPI: Loop Rate > 70%)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-24T01:05:37.006Z",
+      "status": "done",
+      "sessionDir": "2026-05-24T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T01-03/_report.md\n- Researcher: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. \n- Writer: 연구자료를 바탕으로 가장 강력하게 공포와 궁금증을 자극할 수 있는 최종 CTA 문구 5개 세트를 작성하십시오. 이 카피는 시청자가 댓글로 자신의\n- 현빈: 최종 콘텐츠 배포 단계에 맞춰 A/B 테스트 KPI 측정 구조를 확정하십시오. 제목, 썸네일 컨셉(비주얼), CTA 문구 세 가지 변수 조합별로\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. 이 데이터를 바탕으로 현재의 쇼츠 스크립트가 다루는 주제에 긴급성을",
+      "completedAt": "2026-05-24T01:06:25.286Z"
+    },
+    {
+      "id": "20260524010537-rkjv",
+      "title": "**Heatmap / Time-Stamp Tracking:** 화면 내 특정 지점(예: 경고 그래프가 나타나는 순간, 자막의 핵심 단어)에 대한 사용자의 시선 집중도를 측정하는 로직 필요.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-24T01:05:37.012Z",
+      "status": "done",
+      "sessionDir": "2026-05-24T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T01-03/_report.md\n- Researcher: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. \n- Writer: 연구자료를 바탕으로 가장 강력하게 공포와 궁금증을 자극할 수 있는 최종 CTA 문구 5개 세트를 작성하십시오. 이 카피는 시청자가 댓글로 자신의\n- 현빈: 최종 콘텐츠 배포 단계에 맞춰 A/B 테스트 KPI 측정 구조를 확정하십시오. 제목, 썸네일 컨셉(비주얼), CTA 문구 세 가지 변수 조합별로\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. 이 데이터를 바탕으로 현재의 쇼츠 스크립트가 다루는 주제에 긴급성을",
+      "completedAt": "2026-05-24T01:06:25.292Z"
+    },
+    {
+      "id": "20260524010537-cbyn",
+      "title": "**Comment Submission Event:** 댓글 작성 시작(Input Focus)부터 제출 완료까지의 모든 이벤트를 추적해야 함.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-24T01:05:37.018Z",
+      "status": "done",
+      "sessionDir": "2026-05-24T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T01-03/_report.md\n- Researcher: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. \n- Writer: 연구자료를 바탕으로 가장 강력하게 공포와 궁금증을 자극할 수 있는 최종 CTA 문구 5개 세트를 작성하십시오. 이 카피는 시청자가 댓글로 자신의\n- 현빈: 최종 콘텐츠 배포 단계에 맞춰 A/B 테스트 KPI 측정 구조를 확정하십시오. 제목, 썸네일 컨셉(비주얼), CTA 문구 세 가지 변수 조합별로\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. 이 데이터를 바탕으로 현재의 쇼츠 스크립트가 다루는 주제에 긴급성을",
+      "completedAt": "2026-05-24T01:06:25.297Z"
+    },
+    {
+      "id": "20260524010537-065f",
+      "title": "**Sentiment Analysis API Hook:** 제출된 댓글에 대해 AI를 이용해 '불안감 수준'과 '문제 해결 지향성'을 점수화하여 기록. (단순 참여 횟수보다 가치 높음)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-24T01:05:37.024Z",
+      "status": "done",
+      "sessionDir": "2026-05-24T01-03",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T01-03/_report.md\n- Researcher: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. \n- Writer: 연구자료를 바탕으로 가장 강력하게 공포와 궁금증을 자극할 수 있는 최종 CTA 문구 5개 세트를 작성하십시오. 이 카피는 시청자가 댓글로 자신의\n- 현빈: 최종 콘텐츠 배포 단계에 맞춰 A/B 테스트 KPI 측정 구조를 확정하십시오. 제목, 썸네일 컨셉(비주얼), CTA 문구 세 가지 변수 조합별로\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 최근 48시간 동안 '시스템 의존성 실패', '구조적 취약점', 또는 '복잡계 오류'와 관련된 미디어 기사나 전문 지식 트렌드를 수집하십시오. 이 데이터를 바탕으로 현재의 쇼츠 스크립트가 다루는 주제에 긴급성을",
+      "completedAt": "2026-05-24T01:06:25.303Z"
     }
   ]
 }
