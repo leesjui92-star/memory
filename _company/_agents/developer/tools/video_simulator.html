@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Anomaly Detection - KPI Simulator</title>
+    <style>
+        body { font-family: monospace; background-color: #0A0A0A; color: #00FFFF; padding: 20px; }
+        #videoPlayerContainer { width: 80%; max-width: 900px; margin: 50px auto; border: 3px solid #00FFFF; box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); padding: 20px; }
+        #videoPlayer { width: 100%; height: 450px; background-color: #1A1A1A; display: flex; align-items: center; justify-content: center; color: #888; font-size: 2em;}
+        .overlay-text { position: absolute; top: 10%; left: 5%; right: 5%; text-align: center; padding: 10px; background: rgba(0, 0, 0, 0.7); border: 1px solid #FF0000; animation: blink 1s infinite alternate; }
+        @keyframes blink { from { opacity: 1; } to { opacity: 0.2; } }
+        #logOutput { margin-top: 30px; padding: 15px; background-color: #1A1A1A; border: 1px solid #00FFFF; height: 150px; overflow-y: scroll; font-size: 0.9em;}
+    </style>
+</head>
+<body>
+
+    <div id="videoPlayerContainer">
+        <!-- 실제 영상 플레이어 영역을 시뮬레이션합니다. -->
+        <div id="videoPlayer">영상 콘텐츠 재생 중... (T=0s)</div>
+        
+        <!-- T+36s에 나타날 가상의 경고 오버레이를 미리 배치 -->
+        <div id="t36s_overlay" class="overlay-text" style="display: none;">SYSTEM INTERVENTION REQUIRED.</div>
+    </div>
+
+    <h3>[KPI & Event Tracking Log]</h3>
+    <pre id="logOutput"></pre>
+
+    <script type="module">
+        // 1. 핵심 모듈 불러오기 (kpi_tracker.js)
+        import { trackT25sGap, trackT36sCTA } from './kpi_tracker.js';
+
+        const logOutput = document.getElementById('logOutput');
+        const videoPlayer = document.getElementById('videoPlayer');
+        const t36sOverlay = document.getElementById('t36s_overlay');
+        let currentTime = 0;
+
+        // 현재 시간을 로깅하는 함수
+        function log(message) {
+            logOutput.innerHTML += `\n[${currentTime.toFixed(2)}s] ${message}`;
+            logOutput.scrollTop = logOutput.scrollHeight; // 스크롤을 가장 아래로 이동
+        }
+
+        /**
+         * 시뮬레이션 시간 흐름 및 KPI 이벤트를 처리하는 메인 루프
+         */
+        function simulateTimeFlow() {
+            // 1초마다 시간을 증가시키고 플레이어를 업데이트합니다.
+            setTimeout(() => {
+                currentTime += 1;
+                videoPlayer.innerHTML = `영상 콘텐츠 재생 중... (T=${currentTime}s)`;
+
+                // --- KPI 이벤트 트리거 로직 ---
+
+                // T+25초 지점: 지식 공백 구간 진입 시뮬레이션
+                if (Math.floor(currentTime) === 25 && currentTime < 30) {
+                    log('========================================');
+                    log('🚨 [SYSTEM EVENT] T+25s 도달! 정보 공백 시작.');
+                    // KPI 트래커 모듈 호출
+                    trackT25sGap({ userId: 'mock_user_abc', sessionId: 'session_123' });
+                }
+
+                // T+36초 지점: CTA 경고 에셋 등장 시뮬레이션
+                if (Math.floor(currentTime) === 36 && currentTime < 40) {
+                    log('========================================');
+                    log('⚠️ [SYSTEM EVENT] T+36s 도달! 최종 CTA 경고 에셋 노출.');
+                    t36sOverlay.style.display = 'block'; // 시각적 요소 활성화
+                    // KPI 트래커 모듈 호출
+                    trackT36sCTA({ userId: 'mock_user_abc', sessionId: 'session_123' });
+                }
+
+                // 다음 루프 재귀 호출
+                if (currentTime < 45) { // 시뮬레이션을 45초까지 진행
+                    simulateTimeFlow();
+                } else {
+                    log('========================================');
+                    log('[END] 시뮬레이션 종료. 모든 KPI 로직이 정상적으로 테스트되었습니다.');
+                }
+
+            }, 1000); // 1000ms = 1초 간격
+        }
+
+        // 초기 실행
+        simulateTimeFlow();
+
+    </script>
+</body>
+</html>
