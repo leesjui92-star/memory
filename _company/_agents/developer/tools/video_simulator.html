@@ -2,86 +2,178 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Anomaly Detection - KPI Simulator</title>
+    <title>KPI Live Simulator | Data Debug View</title>
     <style>
-        body { font-family: monospace; background-color: #0A0A0A; color: #00FFFF; padding: 20px; }
-        #videoPlayerContainer { width: 80%; max-width: 900px; margin: 50px auto; border: 3px solid #00FFFF; box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); padding: 20px; }
-        #videoPlayer { width: 100%; height: 450px; background-color: #1A1A1A; display: flex; align-items: center; justify-content: center; color: #888; font-size: 2em;}
-        .overlay-text { position: absolute; top: 10%; left: 5%; right: 5%; text-align: center; padding: 10px; background: rgba(0, 0, 0, 0.7); border: 1px solid #FF0000; animation: blink 1s infinite alternate; }
-        @keyframes blink { from { opacity: 1; } to { opacity: 0.2; } }
-        #logOutput { margin-top: 30px; padding: 15px; background-color: #1A1A1A; border: 1px solid #00FFFF; height: 150px; overflow-y: scroll; font-size: 0.9em;}
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0a141f; color: #b3e5fc; padding: 20px; }
+        header { border-bottom: 2px solid #00bcd4; padding-bottom: 10px; margin-bottom: 20px; text-align: center; }
+        .container { display: flex; gap: 30px; max-width: 1200px; margin: auto; }
+        .video-viewport, .debugger-panel { background-color: #1c2a3b; border: 1px solid #00bcd4; padding: 20px; border-radius: 8px; flex: 1; min-width: 50%; }
+        .video-viewport { position: relative; height: 400px; overflow: hidden; background: black; display: flex; justify-content: center; align-items: center; border: 2px solid #00bcd4; }
+        #playhead { position: absolute; top: 0; left: 0%; height: 100%; width: 3px; background-color: rgba(255, 255, 255, 0.8); box-shadow: 0 0 10px #00bcd4; transition: transform linear; z-index: 10; }
+        #time-marker { position: absolute; bottom: -20px; font-size: 1.2em; color: #ffeb3b; }
+
+        /* Debugger Panel Styles */
+        h3 { color: #00bcd4; border-bottom: 1px dashed #00bcd4; padding-bottom: 5px; }
+        #kpi-log, #event-tracker { background-color: #0a141f; padding: 15px; max-height: 300px; overflow-y: auto; border: 1px dashed #263a51; margin-top: 10px; }
+        .log-entry { font-size: 0.9em; margin-bottom: 8px; padding: 5px; border-left: 3px solid orange; background-color: #1c2a3b; }
+        .critical { color: red; font-weight: bold; }
+
+        /* Controls */
+        #controls { text-align: center; margin-top: 20px; }
+        button { padding: 10px 25px; margin: 5px; background-color: #00bcd4; color: white; border: none; cursor: pointer; transition: background-color 0.3s; }
+        button:hover { background-color: #0097a7; }
+
+        /* Simulation State */
+        #simulation-status { margin-top: 15px; padding: 10px; border: 1px solid yellow; background-color: rgba(255, 235, 59, 0.1); }
     </style>
 </head>
 <body>
 
-    <div id="videoPlayerContainer">
-        <!-- 실제 영상 플레이어 영역을 시뮬레이션합니다. -->
-        <div id="videoPlayer">영상 콘텐츠 재생 중... (T=0s)</div>
-        
-        <!-- T+36s에 나타날 가상의 경고 오버레이를 미리 배치 -->
-        <div id="t36s_overlay" class="overlay-text" style="display: none;">SYSTEM INTERVENTION REQUIRED.</div>
+    <header>
+        <h1>💻 KPI Live Simulator (Debugging Mode)</h1>
+        <p>T+25s (지식 공백) 및 T+36s (CTA 전환) 데이터 추적 검증 뷰입니다.</p>
+    </header>
+
+    <div id="controls">
+        <button onclick="startSimulation()">▶️ Simulate Video Flow</button>
+        <button onclick="resetSimulator()">🔄 Reset Simulation</button>
+    </div>
+    
+    <div class="container">
+        <!-- 1. 비디오 시각화 영역 -->
+        <div class="video-viewport" id="videoViewport">
+            <div id="playhead"></div>
+            <div id="time-marker">00:00 / 40s</div>
+            <p style="position: absolute; top: 50%; transform: translateY(-50%); color: #9e9e9e;">[VIDEO CONTENT STREAMING]</p>
+        </div>
+
+        <!-- 2. 디버깅 패널 -->
+        <div class="debugger-panel">
+            <h3>📈 KPI 이벤트 추적 로그 (kpi_tracker.js Output)</h3>
+            <div id="event-tracker">로그가 여기에 기록됩니다.</div>
+
+            <h3 style="margin-top: 20px;">💾 수집된 데이터 Payload (Mock API Input)</h3>
+            <pre id="kpi-log" style="white-space: pre-wrap; font-size: 0.85em;"></pre>
+        </div>
     </div>
 
-    <h3>[KPI & Event Tracking Log]</h3>
-    <pre id="logOutput"></pre>
+    <script>
+        // 가상의 KPI 추적 로직 및 이벤트 정의 (kpi_tracker.js의 핵심 기능 재현)
+        const KPI_EVENTS = {
+            'T+10s': { type: 'Engagement', description: '초기 문제 인식 구간. 시청자의 평균 이탈 지점 확인.', weight: 0.3 },
+            'T+25s': { type: 'KnowledgeGap', description: '시스템적 결함 정보 주입 (핵심 전환). 가장 중요한 KPI 측정 지점.', weight: 0.5, critical: true },
+            'T+36s': { type: 'CTA_Conversion', description: '전문 진단 필요성 유도 및 CTA 노출. 구매 의향 신호 포착.', weight: 1.0, critical: true }
+        };
 
-    <script type="module">
-        // 1. 핵심 모듈 불러오기 (kpi_tracker.js)
-        import { trackT25sGap, trackT36sCTA } from './kpi_tracker.js';
-
-        const logOutput = document.getElementById('logOutput');
-        const videoPlayer = document.getElementById('videoPlayer');
-        const t36sOverlay = document.getElementById('t36s_overlay');
         let currentTime = 0;
+        let simulationInterval;
+        let collectedData = [];
 
-        // 현재 시간을 로깅하는 함수
-        function log(message) {
-            logOutput.innerHTML += `\n[${currentTime.toFixed(2)}s] ${message}`;
-            logOutput.scrollTop = logOutput.scrollHeight; // 스크롤을 가장 아래로 이동
+        function logEvent(eventDetails) {
+            const tracker = document.getElementById('event-tracker');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            if (eventDetails.critical) {
+                entry.classList.add('critical');
+            }
+            entry.innerHTML = `[${eventDetails.time}] ${eventDetails.type}: ${eventDetails.description} - Value: ${eventDetails.value}`;
+            tracker.appendChild(entry);
+            // 스크롤을 맨 아래로 내림
+            tracker.scrollTop = tracker.scrollHeight;
+
+            // 데이터 배열에 추가 (실제 로직처럼)
+            collectedData.push({ 
+                time: eventDetails.time, 
+                type: eventDetails.type, 
+                value: eventDetails.value 
+            });
         }
 
-        /**
-         * 시뮬레이션 시간 흐름 및 KPI 이벤트를 처리하는 메인 루프
-         */
-        function simulateTimeFlow() {
-            // 1초마다 시간을 증가시키고 플레이어를 업데이트합니다.
-            setTimeout(() => {
-                currentTime += 1;
-                videoPlayer.innerHTML = `영상 콘텐츠 재생 중... (T=${currentTime}s)`;
-
-                // --- KPI 이벤트 트리거 로직 ---
-
-                // T+25초 지점: 지식 공백 구간 진입 시뮬레이션
-                if (Math.floor(currentTime) === 25 && currentTime < 30) {
-                    log('========================================');
-                    log('🚨 [SYSTEM EVENT] T+25s 도달! 정보 공백 시작.');
-                    // KPI 트래커 모듈 호출
-                    trackT25sGap({ userId: 'mock_user_abc', sessionId: 'session_123' });
-                }
-
-                // T+36초 지점: CTA 경고 에셋 등장 시뮬레이션
-                if (Math.floor(currentTime) === 36 && currentTime < 40) {
-                    log('========================================');
-                    log('⚠️ [SYSTEM EVENT] T+36s 도달! 최종 CTA 경고 에셋 노출.');
-                    t36sOverlay.style.display = 'block'; // 시각적 요소 활성화
-                    // KPI 트래커 모듈 호출
-                    trackT36sCTA({ userId: 'mock_user_abc', sessionId: 'session_123' });
-                }
-
-                // 다음 루프 재귀 호출
-                if (currentTime < 45) { // 시뮬레이션을 45초까지 진행
-                    simulateTimeFlow();
-                } else {
-                    log('========================================');
-                    log('[END] 시뮬레이션 종료. 모든 KPI 로직이 정상적으로 테스트되었습니다.');
-                }
-
-            }, 1000); // 1000ms = 1초 간격
+        function updatePayload() {
+            const log = document.getElementById('kpi-log');
+            // JSON.stringify를 사용하여 데이터를 보기 좋게 포맷팅
+            log.textContent = JSON.stringify(collectedData, null, 2);
         }
 
-        // 초기 실행
-        simulateTimeFlow();
+        function simulateEventTrigger(timeSeconds) {
+            let eventKey;
+            if (Math.abs(timeSeconds - 25) < 1) {
+                eventKey = 'T+25s';
+            } else if (Math.abs(timeSeconds - 36) < 1) {
+                eventKey = 'T+36s';
+            } else {
+                return; // 이 시점에는 주요 이벤트가 없음
+            }
 
+            const eventInfo = KPI_EVENTS[eventKey];
+            if (eventInfo) {
+                let value;
+                if (eventInfo.critical) {
+                    // 중요 구간에서는 임의로 높은 값을 부여하여 '관심'을 증명
+                    value = Math.floor(Math.random() * 100) + 75; 
+                } else if (eventKey === 'T+10s') {
+                     value = Math.floor(Math.random() * 40) + 20; 
+                }
+
+                logEvent({
+                    time: eventKey,
+                    type: eventInfo.type,
+                    description: eventInfo.description,
+                    value: value,
+                    critical: eventInfo.critical
+                });
+            }
+        }
+
+
+        function runSimulationStep() {
+            const viewport = document.getElementById('videoViewport');
+            const playhead = document.getElementById('playhead');
+            const timeMarker = document.getElementById('time-marker');
+
+            // 시간 업데이트 (40초까지)
+            if (currentTime > 40) {
+                clearInterval(simulationInterval);
+                playhead.style.transform = 'translateX(-100%)';
+                timeMarker.textContent = "ENDED";
+                return;
+            }
+
+            // 시각적 위치 업데이트
+            const progress = (currentTime / 40) * 100;
+            playhead.style.transform = `translateX(${progress}%)`;
+            timeMarker.textContent = `${Math.floor(currentTime)}s / 40s`;
+
+            // 이벤트 추적 실행 (시간에 따라 트리거)
+            simulateEventTrigger(currentTime);
+
+            // 다음 프레임 시간 업데이트
+            currentTime += 1; // 1초 단위로 진행 가정
+            updatePayload();
+        }
+
+        function startSimulation() {
+            if (simulationInterval) clearInterval(simulationInterval);
+            collectedData = [];
+            document.getElementById('event-tracker').innerHTML = '';
+            document.getElementById('kpi-log').textContent = '[]';
+            currentTime = 0;
+            runSimulationStep(); // 초기화 실행
+            // 매 500ms마다 시뮬레이션 단계 진행 (실시간 디버깅 느낌)
+            simulationInterval = setInterval(runSimulationStep, 500); 
+        }
+
+        function resetSimulator() {
+            clearInterval(simulationInterval);
+            document.getElementById('event-tracker').innerHTML = '';
+            document.getElementById('kpi-log').textContent = '[]';
+            currentTime = 0;
+            document.getElementById('time-marker').textContent = "00:00 / 40s";
+            document.getElementById('playhead').style.transform = `translateX(0%)`;
+        }
+
+        // 초기화 시뮬레이터 리셋 버튼 활성화 상태로 설정
+        resetSimulator(); 
     </script>
 </body>
 </html>
