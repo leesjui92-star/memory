@@ -453,3 +453,7 @@ _사용자가 직접 줄을 지우면 그 주장은 다시 미검증 상태로 �
 - [2026-05-27] * **글리치 효과 로직 (Glitch Protocol):** 핵심 메시지나 위험 경고 문구에만 적용됩니다. 텍스트가 일시적으로 좌우로 번지고, 색상이 분산되는(Chromatic Aberration) 시각적 오류를 주어 **'이 정보는 매우 중요하며, 일반적인 출처가 아님'**을 암시합니다. _(근거: Designer 개인 메모리)_
 - [2026-05-27] * **헤드라인 (H1):** **"당신이 놓치고 있는, 시스템의 구조적 결함."** (`Orbitron`, Neon Cyan 글리치 효과 적용). _(근거: Designer 개인 메모리)_
 - [2026-05-27] * **[Data Stream Visualizer] A:** "KPI 하락의 원인: 단순 시장 변화가 아닙니다. "라는 메시지와 함께 급격히 떨어진 파형을 시각화. _(근거: Data Integrity Failure)_
+- [2026-05-27] | **Background** | Deep Black | `#0A0A0A` | 모든 기본 배경, 깊이감 부여. (전체) | | _(근거: Designer 검증된 지식)_
+- [2026-05-27] | **Primary Accent** | Neon Cyan | `#00FFFF` | 데이터 스트림, 정상 경고(Warning), 정보 흐름 표시. (정보성) | | _(근거: Designer 검증된 지식)_
+- [2026-05-27] | **Critical Alert** | Danger Pink/Red | `#FF3366` | 치명적 오류 (`FATAL ERROR`), 시스템 붕괴 임박 경고, CTA 버튼 등 최고 수준의 위험 감지. (경고성) | | _(근거: CEO 지시사항 반영)_
+- [2026-05-27] | **Neutral Accent** | Subtle Gray | `#AAAAAA` ~ `#CCCCCC` | 일반 텍스트, UI 요소 구분선, 시간 코드 표시. | | _(근거: Designer 검증된 지식)_
